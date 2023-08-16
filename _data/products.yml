@@ -1,0 +1,15 @@
+- name: KeyboardKit
+  url: https://keyboardkit.com
+  image: keyboardkit
+  
+- name: LicenseKit
+  url:  https://getlicensekit.com
+  image: licensekit
+
+- name: Wally
+  url:  https://wallyapp.com
+  image: wally
+
+- name: Appamini
+  url:  https://appamini.com
+  image: appamini

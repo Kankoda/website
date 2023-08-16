@@ -1,0 +1,14 @@
+{% assign hero = page.hero | size %}
+{% if hero == 0 %}
+{% else %}
+<section>
+    <div class="hero {{ page.id }}">
+        <div class="wrapper">
+            <h1>{{page.hero-title | default: page.title}}</h1>
+            <p>{{page.description}}</p>
+            <img src="{{page.hero}}" alt="Page hero image for {{page.id}} page" />
+        </div>
+        <div class="hero-line"></div>
+    </div>
+</section>
+{% endif %}

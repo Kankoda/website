@@ -1,0 +1,62 @@
+---
+id: home
+title: Home
+layout: default
+
+image:  /assets/headers/icon.png
+
+hero: /assets/devices.png
+hero-title: Welcome to Kankoda!
+
+description: Kankoda builds apps and products for iOS, iPadOS, macOS, tvOS and watchOS.
+---
+
+<div class="home-content paper">
+  <p>
+    Kankoda is <a href="/company">an app and software agency</a> in beautiful Stockholm, Sweden. We are experts in Swift and SwiftUI, and build apps and software for iOS, iPadOS, macOS, tvOS and watchOS.
+  </p>
+
+  <p>
+    Don't hesistate to <a href="mailto:{{site.email}}">reach out</a> if you need help with a project or want to build something amazing.
+  </p>
+
+  <section>
+    <h2>About us</h2>
+
+    <div class="grid features">
+      {% for feature in site.data.home-features %}
+      {%- if feature.hidden -%}
+      {%- else -%}
+      <a href="{{ feature.url }}">
+        <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.text }}</p>
+      </a>
+      {%- endif -%}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <h2>Latest news</h2>
+    <div>
+      <a href="/blog">Blog</a> ·
+      <a href="{{ site.twitter_url }}">Twitter</a> ·
+      <a href="{{ site.mastodon_url }}">Mastodon</a>
+    </div>
+    <p></p>
+    <div class="grid blog list">
+      {% for post in site.posts limit:2 %}
+          <div>
+            {% include kankoda/blog/post-list-item.html post=posts.first %}
+          </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="products">
+    <h2>Products</h2>
+    {% assign products = site.data.products | slice: 0, 4 %}
+    {% include kankoda/grids/grid.html items=products link="products" type="icons" %}
+  </section>
+</div>

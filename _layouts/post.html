@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="blog post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  
+  {% include kankoda/buttons/back.html href="/blog" title="Blog" %}
+
+  <h1>
+    {{ page.title | escape }}
+  </h1>
+
+  {% include kankoda/blog/post-header.html post=page %}
+  <div class="e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if page.tweet -%}
+  <h2>Discussion</h2>
+
+    {%- if site.disqus.shortname -%}
+    <p>
+      If you found this post interesting and would like to share 
+      your thoughts, ideas, feedback etc. please comment in the
+      Disqus section below or reply to {% include kankoda/blog/post-discussion-links.html %}.
+    </p>
+    {%- else -%}
+    <p>
+      If you found this post interesting and would like to share 
+      your thoughts, ideas, feedback etc. please reply to {% include kankoda/blog/post-discussion-links.html %}.
+    </p>
+    {%- endif -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+{% include kankoda/disqus/disqus-card.html %}
+{% include kankoda/tags/scripts.html %}

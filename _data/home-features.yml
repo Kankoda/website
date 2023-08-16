@@ -1,0 +1,14 @@
+- title: About us
+  url: /company
+  image: /assets/heros/icon.png
+  text: Who are we and how can we help you in your work?
+  
+- title: Projects
+  url:  /projects
+  image: /assets/heros/projects.png
+  text: Take a look at some recent app and software projects.
+
+- title: Products
+  url:  /products
+  image: /assets/heros/products.png
+  text: Take a look at some of our commercial products.
