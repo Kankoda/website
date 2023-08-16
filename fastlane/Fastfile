@@ -1,0 +1,43 @@
+fastlane_version "2.129.0"
+
+default_platform :ios
+
+platform :ios do
+
+
+  # KeyboardKit ================
+
+  desc "Remove Kankoda setup from an adjacent folder"
+  lane :remove do |options|
+    from = options[:from]
+    sh('cd ../ && rm -rf ../' + from + '/_includes/kankoda')
+    sh('cd ../ && rm -rf ../' + from + '/_layouts/blog.html')
+    sh('cd ../ && rm -rf ../' + from + '/_layouts/default.html')
+    sh('cd ../ && rm -rf ../' + from + '/_layouts/page.html')
+    sh('cd ../ && rm -rf ../' + from + '/_layouts/plain.html')
+    sh('cd ../ && rm -rf ../' + from + '/_layouts/post.html')
+    sh('cd ../ && rm -rf ../' + from + '/_sass/kankoda')
+    sh('cd ../ && rm -rf ../' + from + '/assets/kankoda')
+  end
+
+  desc "Add Kankoda setup to an adjacent folder"
+  lane :add do |options|
+    to = options[:to]
+    sh('cd ../ && cp -r _includes/kankoda ../' + to + '/_includes/kankoda')
+    sh('cd ../ && cp -r _layouts/blog.html ../' + to + '/_layouts/blog.html')
+    sh('cd ../ && cp -r _layouts/default.html ../' + to + '/_layouts/default.html')
+    sh('cd ../ && cp -r _layouts/page.html ../' + to + '/_layouts/page.html')
+    sh('cd ../ && cp -r _layouts/plain.html ../' + to + '/_layouts/plain.html')
+    sh('cd ../ && cp -r _layouts/post.html ../' + to + '/_layouts/post.html')
+    sh('cd ../ && cp -r _sass/kankoda ../' + to + '/_sass/kankoda')
+    sh('cd ../ && cp -r assets/kankoda ../' + to + '/assets/kankoda')
+  end
+
+  desc "Sync Kankoda setup to an adjacent folder"
+  lane :sync do |options|
+    to = options[:to]
+    remove(from: to)
+    add(to: to)
+  end
+  
+end
