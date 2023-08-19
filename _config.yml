@@ -61,6 +61,9 @@ footer_sitemap:
 collections_dir: collections
 
 collections:
+  apps:
+    output: true
+    permalink: /apps/:name/
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
@@ -76,6 +79,12 @@ plugins:
   - jekyll-redirect-from
 
 defaults:
+  -
+    scope:
+      type: "apps"
+    values:
+      layout: "app"
+      hero-img-class: "icon"
   -
     scope:
       type: "pages"

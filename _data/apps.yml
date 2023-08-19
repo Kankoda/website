@@ -1,0 +1,32 @@
+- name: KeyboardKit
+  url: http://keyboardkit.com/app
+  appStoreUrl: http://itunes.apple.com/app/keyboardkit/id1568444977
+  
+- name: Wally
+  url: https://wally.app
+  appStoreUrl: https://itunes.apple.com/app/wally/id516398915
+
+- name: Appamini
+  url: http://appamini.com
+  appStoreUrl: https://itunes.apple.com/app/appamini-abc/id581402736
+
+- name: Goth Emoji
+  url: https://gothemoji.danielsaidi.com
+  appStoreUrl: https://itunes.apple.com/app/goth-emoji/id1070226733
+
+- name: Metal Emoji
+  url: https://metalemoji.danielsaidi.com
+  appStoreUrl: https://itunes.apple.com/app/metal-emoji/id1070228823
+
+- name: Lunchrrrrr
+  url: /apps/lunchrrrrr
+  appStoreUrl: https://itunes.apple.com/se/app/lunchrrrrr/id1209779063?l=en&mt=8 
+
+- name: Vinylsamlaren
+  url: https://itunes.apple.com/us/app/vinylsamlaren/id640253601
+  appStoreUrl: https://itunes.apple.com/us/app/vinylsamlaren/id640253601
+  
+- name: Pinny
+  url: /apps/pinny
+  appStoreUrl: https://itunes.apple.com/app/pinny/id984638325
+

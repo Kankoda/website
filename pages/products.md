@@ -41,9 +41,9 @@ LicenseKit lets you manage license information with code or text files that that
 Wally was the first app we ever made for iOS, way back in 2012. It has continuously been upgraded to support the latest technologies, and is today using the latest version of [SwiftUI]({{site.swiftui}}).
 
 
-## [Apps]({{site.appstore_url}})
+## [Misc. Apps]({{site.appstore_url}})
 
-Kankoda has many apps on the [App Store]({{site.appstore_url}}), but since we have focused more on client and open-source projects, as well as our commercial SDKs, most of our apps are a bit dated.
+Kankoda has many other apps on the [App Store]({{site.appstore_url}}), but since we have focused more on client and open-source projects, as well as our commercial SDKs, most of our apps are smaller and free.
 
 ![App Icons]({{site.assets}}headers/apps.png){:class="plain" width="500"}
 
