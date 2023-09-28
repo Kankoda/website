@@ -7,9 +7,13 @@
   image: licensekit
 
 - name: Wally
-  url:  https://wallyapp.com
+  url:  https://wally.app
   image: wally
 
 - name: Appamini
+  url:  https://appamini.com
+  image: appamini
+
+- name: Appamini2
   url:  https://appamini.com
   image: appamini
