@@ -16,35 +16,35 @@ Don't hesitate to [reach out](mailto:{{site.email}}) if you need help with apps 
 
 ## [KeyboardKit]({{site.keyboardkit}})
 
-The [KeyboardKit]({{site.keyboardkit}}) SDK helps you build amazing custom keyboard for iOS and iPadOS, that look and behave just like the native keyboards, or completely different.
+[KeyboardKit]({{site.keyboardkit}}) helps you build amazing custom keyboard for iOS and iPadOS, that look and behave just like the native keyboards...or completely different.
 
 ![KeyboardKit icon]({{site.assets}}icons/keyboardkit.png){:width="200" class="icon"}
 
-The [KeyboardKit Pro]({{site.keyboardkit}}/pro) SDK is a commercial extension that extends KeyboardKit with pro features. There is also a [KeyboardKit app]({{site.keyboardkit}}/app) on the App Store, that lets your create your own keyboards.
+[KeyboardKit Pro]({{site.keyboardkit}}/pro) extends KeyboardKit with pro features. There is also a KeyboardKit [app]({{site.keyboardkit}}/app) on the App Store, that lets your create and design custom keyboards.
 
 
 ## [LicenseKit]({{site.licensekit}})
 
-The [LicenseKit]({{site.licensekit}}) SDK helps you manage software licenses for your [Swift]({{site.swift}})-based apps and libraries.
+[LicenseKit]({{site.licensekit}}) is an SDK that helps you protect your [Swift]({{site.swift}})-based products with commercial licenses.
 
 ![LicenseKit icon]({{site.assets}}icons/licensekit.png){:width="200" class="icon"}
 
-LicenseKit lets you manage license information with code or text files that that are bundled with your source code, or by making remote calls to any external API or license server. 
+LicenseKit lets you manage license information with code or text files that that are bundled with your binary release, or by making remote calls to any external API or license server. 
 
 
 ## [Wally]({{site.wally}})
 
-[Wally]({{site.wally}}) is an app for iOS and iPadOS, that lets you store your bank cards, loyalty cards, receipts, etc. in a wallet that is protected with your biometric information, using Face ID or Touch ID. 
+[Wally]({{site.wally}}) is an app for iOS and iPadOS, that lets you store your bank cards, loyalty cards, receipts, etc.
 
 ![Wally icon]({{site.assets}}icons/wally.png){:width="200" class="icon"}
 
-Wally was the first app we ever made for iOS, way back in 2012. It has continuously been upgraded to support the latest technologies, and is today using the latest version of [SwiftUI]({{site.swiftui}}).
+Wally was made back in 2012 and has been updated regularly to support the latest technologies.
 
 
 ## [Misc. Apps]({{site.appstore_url}})
 
-Kankoda has many other apps on the [App Store]({{site.appstore_url}}), but since we have focused more on client and open-source projects, as well as our commercial SDKs, most of our apps are smaller and free.
+Kankoda has many other apps on the [App Store]({{site.appstore_url}}), but since we have focused more on client work, open-source projects, and our commercial SDKs, most of our apps are smaller and free.
 
 ![App Icons]({{site.assets}}headers/apps.png){:class="plain" width="500"}
 
-Don't hesitate to [reach out](mailto:{{site.email}}) if you need help with apps in particular or software in general, or if you want to build something great from scratch. 
+Don't hesitate to [reach out](mailto:{{site.email}}) if want to build something, or need help with your apps or software.

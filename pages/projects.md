@@ -9,9 +9,7 @@ hero: /assets/heros/projects.png
 description: Kankoda can help you build amazing apps and software. Here are some our our most recent projects.
 ---
 
-Whether you build apps or complex, distributed software, Kankoda can help. Here are some of our most recent projects, where we have helped as an external agency or as a part of the organization.
-
-Don't hesitate to [reach out](mailto:{{site.email}}) if you need help with apps in particular or software in general, or if you want to build something great from scratch. 
+Whether you build apps or complex, distributed software, [Kankoda can help](mailto:{{site.email}}). Here are some of our recent projects, where we have helped as an external agency or as a part of the organization.
 
 
 ## Cineasterna
@@ -42,4 +40,4 @@ Kankoda has helped companies like [Bambuser]({{site.bambuser}}) and [Qapital]({{
 
 ![Company Icons]({{site.assets}}headers/projects.png){:class="plain" width="500"}
 
-Don't hesitate to [reach out](mailto:{{site.email}}) if you need help with apps in particular or software in general, or if you want to build something great from scratch. 
+Don't hesitate to [reach out](mailto:{{site.email}}) if want to build something, or need help with your apps or software.
