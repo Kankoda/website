@@ -21,12 +21,6 @@
         display: inherit;
       }
     }
-
-    .license-table.oss-vs-pro {
-        .grid {
-          grid-template-columns: repeat(2, 1fr) !important;
-        }
-    }
   }
   
   @media (max-width: 500px) {

@@ -22,19 +22,7 @@ description: Kankoda builds apps and products for iOS, iPadOS, macOS, tvOS and w
 
   <section>
     <h2>About us</h2>
-
-    <div class="grid features">
-      {% for feature in site.data.home-features %}
-      {%- if feature.hidden -%}
-      {%- else -%}
-      <a href="{{ feature.url }}">
-        <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
-        <h3>{{ feature.title }}</h3>
-        <p>{{ feature.text }}</p>
-      </a>
-      {%- endif -%}
-      {% endfor %}
-    </div>
+    {% include kankoda/grids/grid-features.html features=site.data.home-features %}
   </section>
 
   <section>
