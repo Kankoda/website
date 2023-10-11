@@ -1,19 +1,24 @@
 - name: KeyboardKit
   url: https://keyboardkit.com
-  image: keyboardkit
-  
+  icon: keyboardkit
+  text: Create amazing custom keyboards with Swift and SwiftUI.
+  app: 1
+  sdk: 1
+
 - name: LicenseKit
   url:  https://getlicensekit.com
-  image: licensekit
+  icon: licensekit
+  text: Protect your Swift-based software with commercial licenses.
+  sdk: 1
 
 - name: Wally
   url:  https://wally.app
-  image: wally
-
+  icon: wally
+  text: Wally is a digital wallet for iOS and iPadOS.
+  app: 1
+  
 - name: Appamini
   url:  https://appamini.com
-  image: appamini
-
-- name: Appamini2
-  url:  https://appamini.com
-  image: appamini
+  icon: appamini
+  text: Appamini are educational apps for curious kids.
+  app: 1

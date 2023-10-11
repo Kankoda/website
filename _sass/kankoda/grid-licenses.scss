@@ -1,13 +1,14 @@
-/*
-  By default, this table supports a feature
-  column and three tier columns (4 columns).
-  You can adjust this on each site if there
-  are more than 3 tiers.
- */
+.license-table.yearly {
+  display: block;
+}
 
- .license-table {
+.license-table.monthly {
+  display: none;
+}
 
-  padding: 30px 0;
+.license-table {
+
+  padding-bottom: 30px;
 
   .grid {
     background-color: $license-table-color;
@@ -61,9 +62,15 @@
       font-size: 1.1em;
     }
 
-    h3+p {
-      font-size: 0.9em;
-      font-weight: normal;
+    h3+div {
+      font-size: 1em;
+      font-weight: 600;
+
+      .subtitle {
+        font-size: smaller;
+        font-weight: normal;
+        opacity: 0.5;
+      }
     }
 
     .trial {
@@ -115,6 +122,10 @@
     border: none;
   }
 
+  .cta-button {
+    margin: 20px 10px 0px 10px; 
+  }
+
   div.free, div.basic, div.indie {
     background-color: #fff;
     border: solid 2px $license-border-color;
@@ -122,12 +133,17 @@
 
   div.silver, div.startup {
     background-color: #f7f7f7;
-    border: solid 2px #d5d5d5;
+    border: solid 2px $license-border-color;
   }
 
   div.gold, div.business {
     border: solid 2px gold;
     background-color: rgba(255, 215, 0, 0.2);
+
+    .cta-button {
+      color: black !important;
+      background-color: gold !important;
+    }
   }
 
   div.enterprise, div.custom {

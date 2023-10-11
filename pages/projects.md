@@ -14,20 +14,20 @@ Whether you build apps or complex, distributed software, [Kankoda can help](mail
 
 ## Cineasterna
 
-Kankoda helped [Cineasterna]({{site.cineasterna}}) bring their video streaming app to iOS, iPadOS and tvOS, as well as Android. The app features shelf- and grid-based lists, search and a native video player integration.
+Kankoda helped [Cineasterna]({{site.cineasterna}}) bring their video streaming app to iOS, iPadOS, tvOS and Android. The app features shelf- and grid-based lists, search and native video player integration.
 
 {% include kankoda/grids/grid-screenshots.html class="landscape" images="cineasterna-1,cineasterna-2,cineasterna-3" %}
 
-The app was built from scratch in [Swift]({{site.swift}}) and [SwiftUI]({{site.swiftui}}), as well as in [Kotlin]({{site.kotlin}}) and [Jetpack Compose]({{site.jetpack}}) for Android. It uses [SPM]({{site.spm}}) to share code and components across platforms.
+The apps are built in [Swift]({{site.swift}}) and [SwiftUI]({{site.swiftui}}), as well as in [Kotlin]({{site.kotlin}}) and [Jetpack Compose]({{site.jetpack}}). The Swift apps use [SPM]({{site.spm}}) to share code and components across platforms.
 
 
 ## Oribi
 
-[Oribi]({{site.oribi}}) is a Swedish company with amazing language technologies and products, that hired Kankoda to build a custom keyboard app for iOS and iPadOS, using Kankoda's [KeyboardKit]({{site.keyboardkit}}) SDK.
+[Oribi]({{site.oribi}}) is a Swedish language technologiy and product company, that hired Kankoda to build a custom keyboard app for iOS and iPadOS, using Kankoda's [KeyboardKit]({{site.keyboardkit}}) SDK.
 
 ![oKeyboard]({{site.assets}}screenshots/okeyboard.png){:class="plain" width="500"}
 
-The resulting [oKeyboard]({{site.oribi}}apps/okeyboard/) app uses [KeyboardKit Pro]({{site.keyboardkitpro}}) for pro features and has its own Oribi-based autocomplete, word prediction, spellchecking, text-to-speech, license management, etc.
+The [oKeyboard]({{site.oribi}}apps/okeyboard/) app uses [KeyboardKit Pro]({{site.keyboardkitpro}}) and Oribi-based autocomplete, word prediction, spellcheck, text-to-speech, license management, etc.
 
 ![Oribi Writer]({{site.assets}}screenshots/oribiwriter.png){:class="plain" width="500"}
 

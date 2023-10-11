@@ -8,7 +8,7 @@ image:  /assets/headers/icon.png
 hero: /assets/devices.png
 hero-title: Welcome to Kankoda!
 
-description: Kankoda builds apps and products for iOS, iPadOS, macOS, tvOS and watchOS.
+description: Kankoda builds apps and products for iOS, macOS, tvOS and watchOS.
 ---
 
 <div class="home-content paper">
@@ -44,6 +44,9 @@ description: Kankoda builds apps and products for iOS, iPadOS, macOS, tvOS and w
 
   <section class="products">
     <h2>Apps & Products</h2>
+    <div>
+      <a href="/products">View all</a>
+    </div>
     {% assign products = site.data.products | slice: 0, 4 %}
     {% include kankoda/grids/grid.html items=products link="products" type="icons" %}
   </section>
