@@ -21,7 +21,7 @@ platform :ios do
   end
 
   desc "Add Kankoda setup to an adjacent folder"
-  lane :sync do |options|
+  lane :add do |options|
     to = options[:to]
     sh('cd ../ && cp -r _includes/kankoda ../' + to + '/_includes')
     sh('cd ../ && cp -r _layouts/blog.html ../' + to + '/_layouts/blog.html')
