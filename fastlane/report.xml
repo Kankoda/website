@@ -5,57 +5,57 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: Verifying fastlane version" time="0.000224">
+      <testcase classname="fastlane.lanes" name="00: Verifying fastlane version" time="0.000228">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: default_platform" time="8.3e-05">
+      <testcase classname="fastlane.lanes" name="01: default_platform" time="8.4e-05">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: Switch to ios remove lane" time="7.9e-05">
+      <testcase classname="fastlane.lanes" name="02: Switch to ios remove lane" time="7.3e-05">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: cd ../ &amp;&amp; rm -rf ../keyboardkit/_includes/kankoda" time="0.00972">
+      <testcase classname="fastlane.lanes" name="03: cd ../ &amp;&amp; rm -rf ../licensekit/_includes/kankoda" time="0.011132">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: cd ../ &amp;&amp; rm -rf ../keyboardkit/_layouts/blog.html" time="0.005385">
+      <testcase classname="fastlane.lanes" name="04: cd ../ &amp;&amp; rm -rf ../licensekit/_layouts/blog.html" time="0.005213">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: cd ../ &amp;&amp; rm -rf ../keyboardkit/_layouts/default.html" time="0.004952">
+      <testcase classname="fastlane.lanes" name="05: cd ../ &amp;&amp; rm -rf ../licensekit/_layouts/default.html" time="0.005242">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: cd ../ &amp;&amp; rm -rf ../keyboardkit/_layouts/page.html" time="0.004843">
+      <testcase classname="fastlane.lanes" name="06: cd ../ &amp;&amp; rm -rf ../licensekit/_layouts/page.html" time="0.004706">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: cd ../ &amp;&amp; rm -rf ../keyboardkit/_layouts/plain.html" time="0.004493">
+      <testcase classname="fastlane.lanes" name="07: cd ../ &amp;&amp; rm -rf ../licensekit/_layouts/plain.html" time="0.004523">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: cd ../ &amp;&amp; rm -rf ../keyboardkit/_layouts/post.html" time="0.00467">
+      <testcase classname="fastlane.lanes" name="08: cd ../ &amp;&amp; rm -rf ../licensekit/_layouts/post.html" time="0.005021">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: cd ../ &amp;&amp; rm -rf ../keyboardkit/_sass/kankoda" time="0.006719">
+      <testcase classname="fastlane.lanes" name="09: cd ../ &amp;&amp; rm -rf ../licensekit/_sass/kankoda" time="0.006925">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: cd ../ &amp;&amp; rm -rf ../keyboardkit/assets/kankoda" time="0.011591">
+      <testcase classname="fastlane.lanes" name="10: cd ../ &amp;&amp; rm -rf ../licensekit/assets/kankoda" time="0.006273">
         
       </testcase>
     
@@ -65,42 +65,42 @@
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="12: cd ../ &amp;&amp; cp -r _includes/kankoda ../keyboardkit/_includes" time="0.019467">
+      <testcase classname="fastlane.lanes" name="12: cd ../ &amp;&amp; cp -r _includes/kankoda ../licensekit/_includes" time="0.016522">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="13: cd ../ &amp;&amp; cp -r _layouts/blog.html ../keyboardkit/_layouts/blog.html" time="0.005453">
+      <testcase classname="fastlane.lanes" name="13: cd ../ &amp;&amp; cp -r _layouts/blog.html ../licensekit/_layouts/blog.html" time="0.005575">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="14: cd ../ &amp;&amp; cp -r _layouts/default.html ../keyboardkit/_layouts/default.html" time="0.005387">
+      <testcase classname="fastlane.lanes" name="14: cd ../ &amp;&amp; cp -r _layouts/default.html ../licensekit/_layouts/default.html" time="0.005325">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="15: cd ../ &amp;&amp; cp -r _layouts/page.html ../keyboardkit/_layouts/page.html" time="0.004753">
+      <testcase classname="fastlane.lanes" name="15: cd ../ &amp;&amp; cp -r _layouts/page.html ../licensekit/_layouts/page.html" time="0.005677">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="16: cd ../ &amp;&amp; cp -r _layouts/plain.html ../keyboardkit/_layouts/plain.html" time="0.005068">
+      <testcase classname="fastlane.lanes" name="16: cd ../ &amp;&amp; cp -r _layouts/plain.html ../licensekit/_layouts/plain.html" time="0.004965">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="17: cd ../ &amp;&amp; cp -r _layouts/post.html ../keyboardkit/_layouts/post.html" time="0.004839">
+      <testcase classname="fastlane.lanes" name="17: cd ../ &amp;&amp; cp -r _layouts/post.html ../licensekit/_layouts/post.html" time="0.004887">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="18: cd ../ &amp;&amp; cp -r _sass/kankoda ../keyboardkit/_sass" time="0.00995">
+      <testcase classname="fastlane.lanes" name="18: cd ../ &amp;&amp; cp -r _sass/kankoda ../licensekit/_sass" time="0.010358">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="19: cd ../ &amp;&amp; cp -r assets/kankoda ../keyboardkit/assets" time="0.006126">
+      <testcase classname="fastlane.lanes" name="19: cd ../ &amp;&amp; cp -r assets/kankoda ../licensekit/assets" time="0.006571">
         
       </testcase>
     
