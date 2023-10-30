@@ -23,11 +23,10 @@
 
             {% if tier.cta %}
             <a href="{{site.gumroad_url}}" class="cta scale">
-                {% include kankoda/buttons/cta.html title=tier.cta %}
+                {{tier.cta}}
             </a>
             {% endif %}
             </div>
-            
         </div>
         {% endfor %}
     </div>
