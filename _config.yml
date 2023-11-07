@@ -5,7 +5,7 @@
 
 title: Kankoda
 description: >-
-  Kankoda designs and builds apps and products for iOS, iPadOS, tvOS, macOS and watchOS, using technologies like Swift and SwiftUI. 
+  Kankoda builds apps and products for iOS, iPadOS, tvOS, macOS and watchOS, using technologies like Swift, SwiftUI and Swift Package Manager. 
 
 url: http://kankoda.com
 rss_url: https://kankoda.com/feed.xml
@@ -47,7 +47,6 @@ header_image: /assets/logo/logo.png
 
 header_pages:
   - index.html
-  - pages/projects.md
   - pages/products.md
   - pages/blog.md
 

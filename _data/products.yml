@@ -11,6 +11,12 @@
   text: Protect your Swift-based software with commercial licenses.
   sdk: 1
 
+- name: EmojiKit
+  url:  /emojikit
+  icon: emojikit
+  text: Powerful emoji tools for all major Apple platforms (iOS, macOS, tvOS and watchOS).
+  sdk: 1
+
 - name: Wally
   url:  https://wally.app
   icon: wally
