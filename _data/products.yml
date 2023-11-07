@@ -14,7 +14,8 @@
 - name: EmojiKit
   url:  /emojikit
   icon: emojikit
-  text: Powerful emoji tools for all major Apple platforms (iOS, macOS, tvOS and watchOS).
+  text: An emoji SDK for all major Apple platforms (iOS, macOS, tvOS and watchOS).
+  gumroad_url: https://kankoda.gumroad.com/l/emojikit
   sdk: 1
 
 - name: Wally

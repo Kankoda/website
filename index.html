@@ -13,7 +13,7 @@ description: Kankoda builds apps and products for iOS, macOS, tvOS and watchOS.
 
 <div class="home-content paper">
   <p>
-    Kankoda is <a href="/company">an app and software agency</a> in beautiful Stockholm, Sweden. We are experts in Swift and SwiftUI, and build apps and software for iOS, iPadOS, macOS, tvOS and watchOS.
+    Kankoda is <a href="/company">an app and software agency</a> in beautiful Stockholm, Sweden. We do <a href="/projects">freelance work</a> and build <a href="/products">apps and products</a> for iOS, iPadOS, macOS, tvOS and watchOS.
   </p>
 
   <p>
@@ -25,6 +25,15 @@ description: Kankoda builds apps and products for iOS, macOS, tvOS and watchOS.
     {% include kankoda/grids/grid-features.html features=site.data.home-features %}
   </section>
 
+  <section class="products">
+    <h2>Apps & Products</h2>
+    <div>
+      <a href="/products">View all</a>
+    </div>
+    {% assign products = site.data.products | slice: 0, 4 %}
+    {% include kankoda/grids/grid.html items=products link="/products" type="icons" %}
+  </section>
+  
   <section>
     <h2>Latest news</h2>
     <div>
@@ -40,14 +49,5 @@ description: Kankoda builds apps and products for iOS, macOS, tvOS and watchOS.
           </div>
       {% endfor %}
     </div>
-  </section>
-
-  <section class="products">
-    <h2>Apps & Products</h2>
-    <div>
-      <a href="/products">View all</a>
-    </div>
-    {% assign products = site.data.products | slice: 0, 4 %}
-    {% include kankoda/grids/grid.html items=products link="products" type="icons" %}
   </section>
 </div>

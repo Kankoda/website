@@ -6,23 +6,23 @@ permalink: /products
 
 hero: /assets/heros/products.png
 
-description: Kankoda can help you build amazing commercial software. Here are some of our own products.
+description: Kankoda builds closed-source, licence-based SDKs and commercial apps.
 ---
 
-Whether you create apps, SDKs or complex, distributed software, Kankoda can help. Here are some of our own SDKs and apps.
+Kankoda builds closed-source, licence-based SDKs and commercial apps using [Swift]({{site.swift}}), [SwiftUI]({{site.swiftui}}) and the [Swift Package Manager]({{site.spm}}).
 
 
 ## SDKs
 
-KeyboardKit sells a couple of license-based SDKs on [Gumroad]({{site.gumroad_url}}). License customers receive a license key that they can use to get access to the SDK.
+Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.github_url}}), distributed with the [Swift Package Manager]({{site.spm}}) and sold through [Gumroad]({{site.gumroad_url}}), where each purchase generates a unique license key.
 
 {% assign products = site.data.products | where:"sdk",1 %}
 {% include kankoda/grids/grid.html items=products link="products" type="icons" %}
 
 
-## Products
+## Apps
 
-KeyboardKit sells apps on the [App Store]({{site.appstore_url}}). Due to the main focus on SDKs, open-source and clients, most of our apps are smaller in scope.
+Kankoda sells apps on the [App Store]({{site.appstore_url}}). Due to the main focus on SDKs, open-source and client work, most of these apps are small, but they're all built with the latest versions of [Swift]({{site.swift}}) and [SwiftUI]({{site.swiftui}}).
 
 {% assign products = site.data.products | where:"app",1 %}
 {% include kankoda/grids/grid.html items=products link="products" type="icons" %}
@@ -30,4 +30,4 @@ KeyboardKit sells apps on the [App Store]({{site.appstore_url}}). Due to the mai
 
 ## Contact
 
-Don't hesitate to [reach out](mailto:{{site.email}}) if you need help with apps in particular or software in general, or if you want to build something great from scratch. 
+Whether you build apps or complex, distributed software, Kankoda can help. Don't hesitate to [reach out](mailto:{{site.email}}) if you want to build something great from scratch, or need help with your apps and products.

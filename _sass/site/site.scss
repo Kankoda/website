@@ -8,13 +8,15 @@
 .hero {
 
     img {
-        width: 250px;
+        width: 300px;
     }
 }
 
-.home .hero {
+.home {
 
-    img {
-        width: 750px;
+    .hero {
+        img {
+            width: 750px;
+        }
     }
 }
