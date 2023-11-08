@@ -33,11 +33,9 @@
     <div class="feature"></div>
     {% for tier in include.tiers %}
     <div>
-        {% if tier.monthly_price_year %}
-        <a href="{{site.gumroad_url}}" class="cta scale">
+        <a href="{{tier.url}}" class="cta scale">
           Sign Up
         </a>
-        {% endif %}
     </div>
     {% endfor %}
   </div>

@@ -10,7 +10,7 @@ link:   https://keyboardkit.com/blog/2023/10/06/keyboardkit-8-rc
 
 The first release candidate for KeyboardKit 8 has been made available for public access. This is a massive update with lots of improvements, so make sure to check it out.
 
-![LicenseKit header]({{page.image}})
+![KeyboardKit header]({{page.image}})
 
 {% include kankoda/data/product.html name="KeyboardKit" %}
 
