@@ -30,7 +30,7 @@ EmojiKit is free to start using, affordable to scale, and offers a monthly and a
 {% include kankoda/licenses/pricing-links.html  %}
 
 {% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="yearly" script=true %}
-{% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="monthly" script=true %}
+{% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="monthly" script=false %}
 
 Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you want to include any add-ons, or if you have other support needs or preferred methods of payment or invoicing.
 

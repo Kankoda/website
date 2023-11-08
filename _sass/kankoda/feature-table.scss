@@ -144,6 +144,13 @@
 
 @media (max-width: 950px) {
 
+  .feature-table.three-tier {
+
+    .grid {
+      grid-template-columns: repeat(3, 1fr) !important;
+    }
+  }
+
   .feature-table {
 
     .grid {
@@ -173,7 +180,7 @@
     h3.regular { display: none !important; }
     h3.compact { display: block !important; }
 
-    .table-header {
+    .table-header, .cta {
       font-size: 12px;
     }
   }

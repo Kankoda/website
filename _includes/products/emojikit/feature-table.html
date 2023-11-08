@@ -1,4 +1,6 @@
-{% include kankoda/gumroad/script.html %}
+{% if include.script %}
+  {% include kankoda/gumroad/script.html %}
+{% endif %}
 
 <section class="feature-table three-tier {{include.price}}">
   {% include kankoda/licenses/table-tiers.html tiers=include.tiers price=include.price %}    
