@@ -177,11 +177,18 @@
 
   .feature-table {
 
-    h3.regular { display: none !important; }
-    h3.compact { display: block !important; }
+    font-size: smaller;
 
-    .table-header, .cta {
-      font-size: 12px;
+    h3.regular { 
+      display: none !important; 
+    }
+    
+    h3.compact { 
+      display: block !important; 
+    }
+
+    .cta {
+      font-size: small;
     }
   }
 }

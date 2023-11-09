@@ -13,6 +13,28 @@ description: EmojiKit provides you with UI components like grids & pickers.
 [EmojiKit](/emojikit) has UI components that you can use in your SwiftUI apps, such as grids and pickers.
 
 
+## Images
+
+EmojiKit has `Image` extensions for Emoji category icons:
+
+![Emoji Category Icons](/assets/screenshots/emojikit-categories.png)
+
+You can either get the icon from a category:
+
+```swift
+Emoji.Category.smileys.icon
+```
+
+or by using the image extension:
+
+```swift
+Image.emojiCategory(.smileys)
+Image.emojiCategorySearch
+```
+
+The image assets are vectorized.
+
+
 ## Emoji Grid
 
 EmojiKit has an ``Emoji.Grid`` that lets you list emojis in a horizontal or vertical grid.

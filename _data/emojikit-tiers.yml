@@ -1,15 +1,15 @@
 - name: Basic
   cta: Free
-  url: http://kankoda.gumroad.com/l/emojikit
+  url: https://kankoda.gumroad.com/l/emojikit
 
 - name: Silver
-  monthly_price_year: 19
-  monthly_price_month: 199
+  monthly_price_year: 49
+  monthly_price_month: 59
   cta: Free Trial
-  url: http://kankoda.gumroad.com/l/emojikit
+  url: https://kankoda.gumroad.com/l/emojikit
 
 - name: Gold
-  monthly_price_year: 49
-  monthly_price_month: 499
+  monthly_price_year: 99
+  monthly_price_month: 129
   cta: Free Trial
-  url: http://kankoda.gumroad.com/l/emojikit
+  url: https://kankoda.gumroad.com/l/emojikit

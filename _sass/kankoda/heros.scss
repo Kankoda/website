@@ -29,7 +29,6 @@
     line-height: 1.4em;
   }
 
-
   .wrapper {
     position: relative;
     z-index: 1000;
@@ -56,6 +55,19 @@
         height: 70px;
         background: $content-background;
       }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+
+    // Hide open-source on smaller screens
+  .hero {
+    padding-top: 25px;
+    margin-bottom: 25px;
+
+    .line {
+      height: 50px !important;
     }
   }
 }
