@@ -12,8 +12,6 @@ The first release candidate for KeyboardKit 8 has been made available for public
 
 ![KeyboardKit header]({{page.image}})
 
-{% include kankoda/data/product.html name="KeyboardKit" %}
-
 KeyboardKit 8 is all about cleaning up the library to make it more approachable, better structured and easier to use. It removes previously deprecated code, reorganizes types into namespaces, and removes low-value utilities, including types solely used for DocC documentation exposure.
 
 Have a look at the [release announcement]({{page.link}}) for more information.

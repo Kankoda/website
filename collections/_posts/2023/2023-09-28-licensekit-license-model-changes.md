@@ -11,8 +11,6 @@ The [LicenseKit]({{site.licensekit}}) license model has been updated to be more 
 
 ![LicenseKit header]({{page.image}})
 
-{% include kankoda/data/product.html name="LicenseKit" %}
-
 LicenseKit is now **$99/year** for solo indies with max $100k in annual revenue, and **$1,000/year** for startups with max 5 people and max $500k in annual revenue.
 
 The license model has also been tweaked so that all tiers include all functionality. This means that there are no longer a hard cap on the number of licenses you can manage on the lower tiers.

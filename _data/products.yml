@@ -1,31 +1,36 @@
 - name: KeyboardKit
-  url: https://keyboardkit.com
-  icon: keyboardkit
-  text: Create amazing custom keyboards with Swift and SwiftUI.
   app: 1
   sdk: 1
+  icon: keyboardkit
+  text: Create amazing custom keyboards with Swift and SwiftUI.
+  url: https://keyboardkit.com
+  github: https://github.com/KeyboardKit/KeyboardKit
+  gumroad: https://kankoda.gumroad.com/l/keyboardkitpro
 
 - name: LicenseKit
-  url:  https://getlicensekit.com
+  sdk: 1
   icon: licensekit
   text: Protect your Swift-based software with commercial licenses.
-  sdk: 1
+  url:  /licensekit
+  github: https://github.com/LicenseKit/LicenseKit
+  gumroad: https://kankoda.gumroad.com/l/licensekit
 
 - name: EmojiKit
-  url:  /emojikit
+  sdk: 1
   icon: emojikit
   text: An emoji SDK for all major Apple platforms (iOS, macOS, tvOS and watchOS).
-  gumroad_url: https://kankoda.gumroad.com/l/emojikit
-  sdk: 1
+  url:  /emojikit
+  github: https://github.com/Kankoda/LicenseKit
+  gumroad: https://kankoda.gumroad.com/l/emojikit
 
 - name: Wally
+  app: 1
   url:  https://wally.app
   icon: wally
   text: Wally is a digital wallet for iOS and iPadOS.
-  app: 1
   
 - name: Appamini
+  app: 1
   url:  https://appamini.com
   icon: appamini
   text: Appamini are educational apps for curious kids.
-  app: 1

@@ -12,8 +12,6 @@ KeyboardKit 8 is finally out! This is a huge update with lots of changes and imp
 
 ![LicenseKit header]({{page.image}})
 
-{% include kankoda/data/product.html name="KeyboardKit" %}
-
 KeyboardKit 8 cleans up the library to make it better structured and easier to use. It reorganizes types into namespaces and removes low-value utilities, resulting in a cleaner API.
 
 This is the biggest upgrade to KeyboardKit yet. You will most likely be affected by some of the many changes, but the SDK should help you update with minimum hassle.

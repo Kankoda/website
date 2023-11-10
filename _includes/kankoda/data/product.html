@@ -1,1 +1,4 @@
-{%- assign project = site.data.products | where:"name", include.name | first -%}
+{%- assign product = site.data.products | where:"name", include.name | first -%}
+{%- assign product_email = site.email_url | append: "?subject=" | append: product.name -%}
+{%- assign product_github = product.github -%}
+{%- assign product_gumroad = product.gumroad -%}
