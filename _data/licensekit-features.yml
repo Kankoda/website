@@ -1,3 +1,8 @@
+- title: License Validation
+  url:  /licensekit/features/license
+  image: /assets/heros/licensekit/license.png
+  text: LicenseKit can validate licenses in flexible and powerful ways.
+
 - title: Binary Licenses
   url:  /licensekit/features/binary-licenses
   image: /assets/heros/licensekit/binary.png
@@ -18,12 +23,7 @@
   image: /assets/heros/licensekit/gumroad.png
   text: LicenseKit can integrate directly with Gumroad.
 
-- title: License Caching
-  url:  /licensekit/features/license-caching
-  image: /assets/heros/licensekit/cache.png
-  text: LicenseKit can cache successful license validations.
-
-- title: Service Proxying
-  url:  /licensekit/features/service-proxying
-  image: /assets/heros/licensekit/proxy.png
-  text: LicenseKit can chain multiple services together.
+- title: Service Composition
+  url:  /licensekit/features/service-composition
+  image: /assets/heros/licensekit/services.png
+  text: LicenseKit can compose services to create powerful combos.

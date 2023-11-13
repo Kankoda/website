@@ -59,6 +59,14 @@ footer_sitemap:
   - pages/products.md
   - pages/blog.md
 
+footer_extra_title: Products
+footer_extra:
+  - pages/products/emojikit/emojikit.md
+  - pages/products/keyboardkit/keyboardkit.md
+  - pages/products/licensekit/licensekit.md
+  - pages/products/wally/wally.md
+  
+
 collections_dir: collections
 
 collections:

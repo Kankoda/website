@@ -8,9 +8,9 @@ The standard tiers are aimed at indie developers, startups and small businesses.
 
 ## License Terms
 
-By purchasing a license, you acknowledge and approve the {{ product.name }} [ terms & conditions](terms).
+By purchasing a license, you acknowledge and approve the [ terms & conditions](terms).
 
 
 ## GitHub
 
-{{ product.name }} is hosted at [GitHub]({{ product_github }}), where you can find the latest version, online documentation, a getting-started guide, code samples, issue tracker, and more.
+{{ product.name }} is hosted at [GitHub]({{ product_github }}), where you find the latest version, online documentation, a getting-started guide, code samples, issue tracker, and more.
