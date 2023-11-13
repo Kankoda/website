@@ -1,7 +1,7 @@
 ---
 id: caching
 title: License Caching
-layout: page
+layout: licensekit-feature
 permalink: /licensekit/features/license-caching
 
 hero: /assets/heros/licensekit/cache.png
@@ -9,7 +9,7 @@ hero: /assets/heros/licensekit/cache.png
 description: LicenseKit lets you cache any license service
 ---
 
-LicenseKit lets you wrap any license service in a cached service and use the last successful validation if an error occurs while validating the license.
+[LicenseKit's](/licensekit) license caching lets you wrap any license service in a cached service and use the last successful validation if an error occurs while validating the license.
 
 
 ## How does it work?

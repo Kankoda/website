@@ -1,7 +1,7 @@
 ---
 id: file
 title: File-based Licenses
-layout: page
+layout: licensekit-feature
 permalink: /licensekit/features/file-licenses
 
 hero: /assets/heros/licensekit/file.png
@@ -9,7 +9,7 @@ hero: /assets/heros/licensekit/file.png
 description: LicenseKit lets you define licenses in plain text files.
 ---
 
-File-based licenses is a great alternative when you need to ship your licenses with your product. The license file is bundled with the product and can be validated even when offline.
+[LicenseKit's](/licensekit) file-based licenses is a great alternative when you need to ship your licenses with your product. The license file is bundled with the product and can be validated even when offline.
 
 ## How does it work?
 

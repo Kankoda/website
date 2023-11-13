@@ -1,7 +1,7 @@
 ---
 id: cloud
 title: API/Cloud-based Licenses
-layout: page
+layout: licensekit-feature
 permalink: /licensekit/features/api-licenses
 
 hero: /assets/heros/licensekit/api.png
@@ -9,7 +9,7 @@ hero: /assets/heros/licensekit/api.png
 description: LicenseKit lets you validate licenses with API-based requests.
 ---
 
-API-based license validation is a great alternative when you want to fetch and validate licenses from any external license service provider, using regular network requests.
+[LicenseKit's](/licensekit) API-based license validation is a great alternative when you want to fetch and validate licenses from any external license service provider, using regular network requests.
 
 
 ## How does it work?

@@ -1,7 +1,7 @@
 ---
 id: gumroad
 title: Gumroad Licenses
-layout: page
+layout: licensekit-feature
 permalink: /licensekit/features/gumroad
 
 hero: /assets/heros/licensekit/gumroad.png
@@ -11,7 +11,7 @@ description: LicenseKit lets you validate Gumroad licenses.
 gumroad: https://gumroad.com
 ---
 
-The Gumroad license service makes it super simple to validate licenses that you've sold at Gumroad, and maps the API response to a valid LicenseKit license.
+[LicenseKit's](/licensekit) Gumroad license service makes it super simple to validate licenses that you've sold at Gumroad, and maps the API response to a valid LicenseKit license.
 
 
 ## How does it work?

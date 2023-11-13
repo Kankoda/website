@@ -1,7 +1,7 @@
 ---
 id: proxying
 title: Service Proxying
-layout: page
+layout: licensekit-feature
 permalink: /licensekit/features/service-proxying
 
 hero: /assets/heros/licensekit/proxy.png
@@ -9,7 +9,7 @@ hero: /assets/heros/licensekit/proxy.png
 description: LicenseKit lets you combine multiple service types into a single service.
 ---
 
-LicenseKit lets you create service proxies that wrap many other services, to create flexible validation flows that use multiple data sources, instead of just a single one.
+[LicenseKit's](/licensekit) service proxying lets you create service proxies that wrap many other services, to create flexible validation flows that use multiple data sources, instead of just a single one.
 
 ## How does it work?
 

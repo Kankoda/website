@@ -1,7 +1,7 @@
 ---
 id: code
 title: Binary Licenses
-layout: page
+layout: licensekit-feature
 permalink: /licensekit/features/binary-licenses
 
 hero: /assets/heros/licensekit/binary.png
@@ -9,7 +9,7 @@ hero: /assets/heros/licensekit/binary.png
 description: LicenseKit lets you define licenses with source code.
 ---
 
-Binary licenses is a great alternative when you need to ship your licenses with your product. Licenses are compiled into binary code and can be validated even when offline.
+[LicenseKit's](/licensekit) binary licenses is a great alternative when you need to ship your licenses with your product. Licenses are compiled into binary code and can be validated even when offline.
 
 ## How does it work?
 
