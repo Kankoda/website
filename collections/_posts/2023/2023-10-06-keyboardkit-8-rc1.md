@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 8 Release Candidate
 date:   2023-10-06 06:00:00 +0000
-tags:   sdks
+tags:   keyboardkit
 
 image:  /assets/headers/keyboardkit.png
 
