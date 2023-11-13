@@ -12,6 +12,11 @@ hero: /assets/icons/licensekit.png
 description: LicenseKit is a powerful license SDK for all major Apple platforms.
 ---
 
+<div class="hero-button-container">
+  <a href="#pricing" class="cta">Sign Up</a>
+</div>
+
+
 LicenseKit helps you protect your software with commercial licenses on all major Apple platforms (iOS, iPadOS, macOS, tvOS and watchOS).
 
 {% include kankoda/data/product.html name="LicenseKit" %}
@@ -20,21 +25,6 @@ LicenseKit helps you protect your software with commercial licenses on all major
 ## Features
 
 {% include kankoda/grids/grid-features.html features=site.data.licensekit-features %}
-
-
-{% include kankoda/paper/hr.md %}
-
-
-## Pricing
-
-{{ product.name }} is free to start using and affordable to scale. It offers a monthly and a yearly payment plan.
-
-{% include kankoda/licenses/pricing-links.html  %}
-
-{% include products/licensekit/feature-table.html tiers=site.data.licensekit-tiers price="yearly" script=true %}
-{% include products/licensekit/feature-table.html tiers=site.data.licensekit-tiers price="monthly" script=false %}
-
-{% include products/pricing-footer.md %}
 
 
 {% include kankoda/paper/hr.md %}
@@ -50,3 +40,18 @@ LicenseKit helps you protect your software with commercial licenses on all major
     <img src="/assets/headers/licensekit-api.png" alt="LicenseKit integrates with any REST-based license API" />
   </a>
 </p>
+
+
+{% include kankoda/paper/hr.md %}
+
+
+## Pricing
+
+{{ product.name }} is free to start using and affordable to scale. It offers a monthly and a yearly payment plan.
+
+{% include kankoda/licenses/pricing-links.html  %}
+
+{% include products/licensekit/feature-table.html tiers=site.data.licensekit-tiers price="yearly" script=true %}
+{% include products/licensekit/feature-table.html tiers=site.data.licensekit-tiers price="monthly" script=false %}
+
+{% include products/product-footer.md %}

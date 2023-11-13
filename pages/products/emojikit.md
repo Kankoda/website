@@ -12,6 +12,10 @@ hero: /assets/icons/emojikit.png
 description: EmojiKit is a powerful emoji SDK for all major Apple platforms.
 ---
 
+<div class="hero-button-container">
+  <a href="#pricing" class="cta">Sign Up</a>
+</div>
+
 EmojiKit brings emoji power features to Swift- and SwiftUI-based apps and libraries on all major Apple platforms (iOS, iPadOS, macOS, tvOS and watchOS).
 
 {% include kankoda/data/product.html name="EmojiKit" %}
@@ -33,4 +37,4 @@ EmojiKit brings emoji power features to Swift- and SwiftUI-based apps and librar
 {% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="yearly" script=true %}
 {% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="monthly" script=false %}
 
-{% include products/pricing-footer.md %}
+{% include products/product-footer.md %}
