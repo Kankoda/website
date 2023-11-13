@@ -2,6 +2,7 @@
   app: 1
   sdk: 1
   icon: keyboardkit
+  image: /assets/headers/keyboardkit.jpg
   text: Create amazing custom keyboards with Swift and SwiftUI.
   url: https://keyboardkit.com
   github: https://github.com/KeyboardKit/KeyboardKit
@@ -10,6 +11,7 @@
 - name: LicenseKit
   sdk: 1
   icon: licensekit
+  image: /assets/headers/licensekit.jpg
   text: Protect your Swift-based software with commercial licenses.
   url:  /licensekit
   github: https://github.com/LicenseKit/LicenseKit
@@ -18,18 +20,22 @@
 - name: EmojiKit
   sdk: 1
   icon: emojikit
+  image: /assets/headers/emojikit.jpg
   text: An emoji SDK for all major Apple platforms (iOS, macOS, tvOS and watchOS).
   url:  /emojikit
   github: https://github.com/Kankoda/LicenseKit
   gumroad: https://kankoda.gumroad.com/l/emojikit
+
 - name: Wally
   app: 1
   url:  https://wally.app
   icon: wally
+  image: /assets/headers/wally.jpg
   text: Wally is a digital wallet for iOS and iPadOS.
   
 - name: Appamini
   app: 1
   url:  https://appamini.com
   icon: appamini
+  image: /assets/headers/appamini.jpg
   text: Appamini are educational apps for curious kids.
