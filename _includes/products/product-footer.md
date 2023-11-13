@@ -19,3 +19,14 @@ By purchasing a license, you acknowledge and approve the [ terms & conditions](t
 ## GitHub
 
 {{ product.name }} is hosted at [GitHub]({{ product_github }}), where you find the latest version, online documentation, a getting-started guide, code samples, issue tracker, and more.
+
+
+<div class="paper">
+    <hr />
+</div>
+
+
+## More Products
+
+{% assign products = site.data.products | slice: 0, 4 %}
+{% include kankoda/grids/grid.html items=products link="/products" type="icons" %}
