@@ -21,17 +21,13 @@ LicenseKit uses a ``LicenseEngine`` to resolve product licenses, then perform an
 
 ## License Validation
 
-A license can validate a bunch of things. The standard ``validate()`` checks that the license is valid for the current bundle, platform and date, but there are many other validation functions as well.
-
-If the license key or retrieved license is invalid, the license engine throws a ``LicenseError``. LicenseKit uses the same logic to validate your license when you create a license engine with your license key.
+A license can validate a bunch of things. The standard ``validate()`` function checks that the license is valid for the current bundle, platform and date, but there are many other validations as well.
 
 
 
 ## License Information
 
-A license contains a lot of optional information, such as the license key, the name of the product and customer, activation and expiration dates, etc. 
-
-Most information is optional, which means that you only have to use what matters to your product.
+A license contains a lot of optional information, such as the license key, the name of the product and customer, activation and expiration dates, etc.
 
 
 ### Customers

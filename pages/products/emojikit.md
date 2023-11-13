@@ -33,4 +33,4 @@ EmojiKit brings emoji power features to Swift- and SwiftUI-based apps and librar
 {% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="yearly" script=true %}
 {% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="monthly" script=false %}
 
-{% include products/product-footer.md %}
+{% include products/pricing-footer.md %}
