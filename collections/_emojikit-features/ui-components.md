@@ -1,12 +1,9 @@
 ---
 title: EmojiKit - UI Components
-layout: page
-permalink: /emojikit/features/ui-components
-
 hero-emoji: 📱
-image:  /assets/headers/emojikit.png
 description: EmojiKit provides you with UI components like grids & pickers.
 ---
+
 
 ## Emoji UI Components
 
@@ -102,7 +99,6 @@ struct ContentView: View {
 ```
 
 The grid is a very customizable component, and can also be used when iterating over categories.
-
 
 
 ## Picker

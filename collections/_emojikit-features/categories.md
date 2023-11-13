@@ -1,10 +1,6 @@
 ---
 title: EmojiKit - Categories
-layout: page
-permalink: /emojikit/features/categories
-
 hero-emoji: 🐻
-image:  /assets/headers/emojikit.png
 description: EmojiKit defines all emoji categories and their emojis.
 ---
 

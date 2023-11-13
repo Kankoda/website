@@ -73,6 +73,9 @@ collections:
   apps:
     output: true
     permalink: /apps/:name/
+  emojikit-features:
+    output: true
+    permalink: /emojikit/features/:name/
   licensekit-features:
     output: true
     permalink: /licensekit/features/:name/
@@ -99,8 +102,15 @@ defaults:
       hero-img-class: "icon"
   -
     scope:
+      type: "emojikit-features"
+    values:
+      image: /assets/headers/emojikit.png
+      layout: "emojikit-feature"
+  -
+    scope:
       type: "licensekit-features"
     values:
+      image: /assets/headers/licensekit.png
       layout: "licensekit-feature"
   -
     scope:

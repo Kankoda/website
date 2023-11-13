@@ -1,10 +1,6 @@
 ---
 title: EmojiKit - Skin Tones
-layout: page
-permalink: /emojikit/features/skintones
-
 hero-emoji: 👍🏾
-image:  /assets/headers/emojikit.png
 description: EmojiKit provides you with skin tone information for all emojis.
 ---
 

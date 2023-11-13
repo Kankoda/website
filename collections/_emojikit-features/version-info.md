@@ -1,12 +1,9 @@
 ---
 title: EmojiKit - Version Information
-layout: page
-permalink: /emojikit/features/version-info
-
 hero-emoji: 📦
-image:  /assets/headers/emojikit.png
 description: EmojiKit defines emoji versions, OS availability and their emojis.
 ---
+
 
 ## Emoji Version Information
 
@@ -44,7 +41,6 @@ version.version  // 13.0
 This lets you figure out exactly which version you can use for a certain OS and platform version.
 
 
-
 ## Version Information
 
 An emoji version defines in which OS versions it became available:
@@ -67,7 +63,6 @@ version.olderVersions     // [.v13_1, .v13, .v12_1, ...]
 ```
 
 This information can be used in many ways, for instance to determine OS and platform availability.
-
 
 
 ## Version Emojis

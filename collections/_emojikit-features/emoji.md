@@ -1,10 +1,6 @@
 ---
 title: EmojiKit - Emojis
-layout: page
-permalink: /emojikit/features/emoji
-
 hero-emoji: 😀
-image:  /assets/headers/emojikit.png
 description: EmojiKit lets you work with emojis in a structured way.
 ---
 
@@ -26,7 +22,6 @@ let emojis = Emoji.all          // 😀😃😄😁😆🥹😅😂🤣🥲...
 The ``Emoji`` type also serves as a namespace for most EmojiKit features, which means that most types are wrapped within this struct.
 
 
-
 ## Unicode Information
 
 The `Emoji` type has unicode-specific properties that are used for identity and naming:
@@ -41,7 +36,6 @@ Emoji("🚀").unicodeName         // Rocket
 ```
 
 These properties have manual overrides for some emojis that lack proper information, such as flags.
-
 
 
 ## Search

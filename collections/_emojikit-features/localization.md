@@ -1,12 +1,9 @@
 ---
 title: EmojiKit - Localization
-layout: page
-permalink: /emojikit/features/localization
-
 hero-emoji: 🇸🇪
-image:  /assets/headers/emojikit.png
 description: EmojiKit supports localization for all emojis and locales.
 ---
+
 
 ## Emoji Localization
 
@@ -19,6 +16,7 @@ Emoji("😀").localizedName(for: .swedish)    // Leende Ansikte
 ```
 
 This feature uses [emoji unicode information](/emojikit/features/emoji) to generate a localization key for each emoji, which is used to resolve a localized name for each emoji.
+
 
 ## Limited Support
 
