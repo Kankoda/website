@@ -1,11 +1,6 @@
 ---
-id: code
 title: Binary Licenses
-layout: licensekit-feature
-permalink: /licensekit/features/binary-licenses
-
 hero: /assets/heros/licensekit/binary.png
-
 description: LicenseKit lets you define licenses with source code.
 ---
 

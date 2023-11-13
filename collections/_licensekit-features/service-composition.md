@@ -1,10 +1,6 @@
 ---
-title: Service Compositions
-layout: licensekit-feature
-permalink: /licensekit/features/service-composition
-
-hero: /assets/heros/licensekit/cache.png
-
+title: Service Composition
+hero: /assets/heros/licensekit/services.png
 description: LicenseKit can compose services to create powerful combos.
 ---
 

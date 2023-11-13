@@ -1,11 +1,6 @@
 ---
-id: file
 title: File-based Licenses
-layout: licensekit-feature
-permalink: /licensekit/features/file-licenses
-
 hero: /assets/heros/licensekit/file.png
-
 description: LicenseKit lets you define licenses in plain text files.
 ---
 

@@ -1,11 +1,6 @@
 ---
-id: proxying
 title: Service Proxying
-layout: licensekit-feature
-permalink: /licensekit/features/service-proxying
-
 hero: /assets/heros/licensekit/proxy.png
-
 description: LicenseKit lets you combine multiple service types into a single service.
 ---
 

@@ -1,10 +1,6 @@
 ---
 title: License Validation
-layout: licensekit-feature
-permalink: /licensekit/features/license
-
 hero: /assets/heros/licensekit/license.png
-
 description: LicenseKit can validate licenses in flexible and powerful ways.
 ---
 

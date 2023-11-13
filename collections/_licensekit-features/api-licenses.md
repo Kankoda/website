@@ -1,11 +1,6 @@
 ---
-id: cloud
 title: API/Cloud-based Licenses
-layout: licensekit-feature
-permalink: /licensekit/features/api-licenses
-
 hero: /assets/heros/licensekit/api.png
-
 description: LicenseKit lets you validate licenses with API-based requests.
 ---
 

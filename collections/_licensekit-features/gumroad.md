@@ -1,11 +1,6 @@
 ---
-id: gumroad
 title: Gumroad Licenses
-layout: licensekit-feature
-permalink: /licensekit/features/gumroad
-
 hero: /assets/heros/licensekit/gumroad.png
-
 description: LicenseKit lets you validate Gumroad licenses.
 
 gumroad: https://gumroad.com

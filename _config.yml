@@ -73,6 +73,9 @@ collections:
   apps:
     output: true
     permalink: /apps/:name/
+  licensekit-features:
+    output: true
+    permalink: /licensekit/features/:name/
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
@@ -94,6 +97,11 @@ defaults:
     values:
       layout: "app"
       hero-img-class: "icon"
+  -
+    scope:
+      type: "licensekit-features"
+    values:
+      layout: "licensekit-feature"
   -
     scope:
       type: "pages"
