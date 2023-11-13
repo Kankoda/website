@@ -21,6 +21,8 @@ EmojiKit brings emoji power features to Swift- and SwiftUI-based apps and librar
 
 {% include kankoda/grids/grid-features.html features=site.data.emojikit-features %}
 
+{% include kankoda/paper/hr.md %}
+
 
 ## Pricing
 

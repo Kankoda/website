@@ -11,6 +11,11 @@ The standard tiers are aimed at indie developers, startups and small businesses.
 By purchasing a license, you acknowledge and approve the [ terms & conditions](terms).
 
 
+<div class="paper">
+    <hr />
+</div>
+
+
 ## GitHub
 
 {{ product.name }} is hosted at [GitHub]({{ product_github }}), where you find the latest version, online documentation, a getting-started guide, code samples, issue tracker, and more.

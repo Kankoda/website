@@ -22,6 +22,9 @@ LicenseKit helps you protect your software with commercial licenses on all major
 {% include kankoda/grids/grid-features.html features=site.data.licensekit-features %}
 
 
+{% include kankoda/paper/hr.md %}
+
+
 ## Pricing
 
 {{ product.name }} is free to start using and affordable to scale. It offers a monthly and a yearly payment plan.
