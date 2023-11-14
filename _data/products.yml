@@ -23,7 +23,7 @@
   image: /assets/headers/emojikit.jpg
   text: An emoji SDK for all major Apple platforms (iOS, macOS, tvOS and watchOS).
   url:  /emojikit
-  github: https://github.com/Kankoda/LicenseKit
+  github: https://github.com/Kankoda/EmojiKit
   gumroad: https://kankoda.gumroad.com/l/emojikit
 
 - name: Wally

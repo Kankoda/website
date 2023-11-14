@@ -3,7 +3,7 @@ Licenses can be purchased from the [Gumroad]({{ product_gumroad }}) e-shop. [Rea
 
 ### Enterprise Licenses
 
-The standard tiers are aimed at indie developers, startups and small businesses. For companies and organizations with more than $1M USD in annual proceeds, please [reach out for a custom plan]({{ product_email }}).
+The standard tiers are aimed at indie developers, startups and small businesses. Companies and organizations with more than $1M USD in annual proceeds can [reach out for a custom plan]({{ product_email }}).
 
 
 ### License Terms
