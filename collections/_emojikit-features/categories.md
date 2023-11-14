@@ -7,7 +7,7 @@ description: EmojiKit defines all emoji categories and their emojis.
 
 ## Emoji Categories
 
-[EmojiKit](/emojikit) has an ``Emoji.Category`` enum that defines all emoji categories and their emojis, for instance:
+[EmojiKit](/emojikit) has an ``Emoji.Category`` enum that defines all emoji categories and their emojis, such as:
 
 ```swift
 try Emojis.Category.smileys.emojis  // 😀😃😄😁😆🥹😅😂...

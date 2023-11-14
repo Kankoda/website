@@ -35,7 +35,7 @@ Emoji("👍🏿").unicodeName         // Thumbs Up Sign
 Emoji("🚀").unicodeName         // Rocket
 ```
 
-These properties have manual overrides for some emojis that lack proper information, such as flags.
+These properties have manual overrides for emojis that lack proper information, such as flags.
 
 
 ## Search
@@ -69,4 +69,4 @@ EmojiKit has String and Character extensions that can be used to detect and hand
 "👍".isSingleEmoji              // true
 ```
 
-These extensions are used to power many features in the library, but can be used stand-alone as well.
+These extensions are used to power many library features, but can be used stand-alone as well.

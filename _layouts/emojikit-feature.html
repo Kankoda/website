@@ -2,22 +2,12 @@
 layout: default
 ---
 
+{% include kankoda/data/product.html name="EmojiKit" %}
+
 <article class="paper">
   {{ content }}
-
   <hr />
-  
-  <h2>Read More</h2>
-  {% include kankoda/grids/grid-features.html features=site.data.emojikit-features %}
-
+  {% include kankoda/licenses/feature-section.html title="Read More" features=site.data.emojikit-features %}
   <hr />
-</article>
-
-<article>
-  <h2>Sign Up</h2>
-  EmojiKit is free to start using and affordable to scale. It offers a monthly and a yearly payment plan.
-
-  {% include kankoda/licenses/pricing-links.html  %}
-  {% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="yearly" script=true %}
-  {% include products/emojikit/feature-table.html tiers=site.data.emojikit-tiers price="monthly" script=false %}
+  {% include kankoda/licenses/pricing-section.html product=product button=1 %}
 </article>

@@ -12,6 +12,11 @@ a.cta:visited {
   color: $cta-foreground !important;
 }
 
+.cta-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
 a.scale {
   display: block;
   text-decoration: none;

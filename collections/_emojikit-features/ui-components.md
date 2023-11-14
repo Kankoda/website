@@ -38,7 +38,7 @@ EmojiKit has an ``Emoji.Grid`` that lets you list emojis in a horizontal or vert
 
 ![Emoji Grid](/assets/screenshots/emojikit-grid.png)
 
-The following code renders a standard vertical grid that uses a standard configuration and item views:
+The following code renders a standard vertical grid with a standard configuration and item views:
 
 ```swift
 struct ContentView: View {
@@ -107,7 +107,7 @@ EmojiKit has an ``Emoji.Picker`` that lets you pick emojis from a horizontally o
 
 ![Emoji Picker](/assets/screenshots/emojikit-picker.png)
 
-The following code renders a standard, vertically scrolling picker that uses a standard configuration and standard grid item views:
+The following code renders a standard, vertical picker with a standard configuration and standard grid item views:
 
 ```swift
 struct ContentView: View {
@@ -167,7 +167,7 @@ try? Emoji.Picker(
 )
 ```
 
-The code above injects a custom action that prints the selected emoji (you can do this by observing the binding as well) and highlights the selected emoji by scaling it up and stroking it with a blue circle.
+The code above injects a custom action that prints the selected emoji (you can do this by observing the binding too) and highlights the selected emoji by scaling it up and stroking it with a blue circle.
 
 Note that the emoji picker will only add skintones callouts on iOS 16.4, macOS 12 and later versions.
 

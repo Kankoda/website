@@ -20,6 +20,6 @@ This feature uses [emoji unicode information](/emojikit/features/emoji) to gener
 
 ## Limited Support
 
-Full emoji localization is currently only implemented to English, but can be implemented on-demand for any product that needs more support.
+Full emoji localization is currently only implemented in English, but can be implemented on-demand for any product that needs more support.
 
-You can also [reach out]({{site.email_url}}) to help out with localization, to get a considerable discount on an SDK license.
+You can [reach out]({{site.email_url}}) to help out with localization, to get a considerable discount on an SDK license.

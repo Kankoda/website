@@ -15,46 +15,21 @@ LicenseKit can use services to get licenses from the product binary, read licens
 
 ## License Engine
 
-LicenseKit uses a ``LicenseEngine`` to resolve product licenses, then perform an initial license validation to see that the license hasn't expired, and that is can be used with the current software and platform.
+LicenseKit uses a ``LicenseEngine`` to resolve licenses, then performs an initial license validation to see that the license hasn't expired, and that is can be used with the current software and platform.
 
 
 
 ## License Validation
 
-A license can validate a bunch of things. The standard ``validate()`` function checks that the license is valid for the current bundle, platform and date, but there are many other validations as well.
+A license can validate a bunch of things. The standard ``validate()`` function checks that the license is valid for the current bundle, platform and date, but there are many other validation types.
 
 
 
 ## License Information
 
-A license contains a lot of optional information, such as the license key, the name of the product and customer, activation and expiration dates, etc.
-
-
-### Customers
-
-A license customer represents a license owner and can define things like the name, address, contact information, etc.
-
-
-### Tier
-
-A license tier defines the level of service that a specific license has access to. LicenseKit defines many standard tiers, like `.standard`, `.basic`, `.silver` and `.gold`. You can also define custom tiers.
-
-
-### Platforms
-
-A license platform defines hardware platforms that a license is valid for. This means that you can have different license prices for the number of platforms a license supports.
-
-
-### Environments
-
-A license environment defines environments that a license can be valid for. This means that you can have different license prices for the number of environments a license supports.
-
-
-### Features
-
-A license feature can be applied to various types and functions. This means that you can have different license prices for the number of features a license supports.
+A license has a lot of information, such as license key and tier, product and owner name, activation and expiration dates, etc. It can also specify valid platforms and environments, features, etc.
 
 
 ## Documentation
 
-See the [LicenseKit repository]({{product.github}}) and the online documentation for more information about LicenseKit and its license model capabilities.
+See the [GitHub repository]({{product.github}}) and online documentation for more information about the LicenseKit license model capabilities.

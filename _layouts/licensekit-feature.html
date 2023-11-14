@@ -2,22 +2,12 @@
 layout: default
 ---
 
+{% include kankoda/data/product.html name="LicenseKit" %}
+
 <article class="paper">
   {{ content }}
-
   <hr />
-  
-  <h2>Read More</h2>
-  {% include kankoda/grids/grid-features.html features=site.data.licensekit-features %}
-
+  {% include kankoda/licenses/feature-section.html title="Read More" features=site.data.licensekit-features %}
   <hr />
-</article>
-
-<article>
-  <h2>Pricing</h2>
-  LicenseKit is free to start using and affordable to scale. It offers a monthly and a yearly payment plan.
-
-  {% include kankoda/licenses/pricing-links.html  %}
-  {% include products/licensekit/feature-table.html tiers=site.data.licensekit-tiers price="yearly" script=true %}
-  {% include products/licensekit/feature-table.html tiers=site.data.licensekit-tiers price="monthly" script=false %}
+  {% include kankoda/licenses/pricing-section.html product=product button=1 %}
 </article>
