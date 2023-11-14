@@ -6,7 +6,7 @@ description: LicenseKit can validate licenses in flexible and powerful ways.
 
 [LicenseKit](/licensekit) has a ``License`` that represents a software license that can be resolved with a license key.
 
-{% include kankoda/data/product.html name="LicenseKit" %}
+{% assign product=site.data.products.licensekit %}
 
 A license can specify and validate license expiration date, tier, customer and other information, as well as the supported platforms, bundle IDs, environments, features, and much more.
 
@@ -32,4 +32,4 @@ A license has a lot of information, such as license key and tier, product and ow
 
 ## Documentation
 
-See the [GitHub repository]({{product.github}}) and online documentation for more information about the LicenseKit license model capabilities.
+See the [GitHub repository]({{product.info.github}}) and online documentation for more information about the LicenseKit license model capabilities.

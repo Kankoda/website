@@ -13,12 +13,12 @@ description: LicenseKit is a powerful license SDK for all major Apple platforms.
 ---
 
 {% include kankoda/buttons/cta.html url="#pricing" %}
+{% assign product=site.data.products.licensekit %}
 
 LicenseKit helps you protect your software with commercial licenses on all major Apple platforms (iOS, iPadOS, macOS, tvOS and watchOS).
 
-{% include kankoda/data/product.html name="LicenseKit" %}
 
-{% include kankoda/licenses/feature-section.html features=site.data.licensekit-features %}
+{% include kankoda/licenses/feature-section.html features=product.features %}
 
 
 ## Integrates with
@@ -37,7 +37,7 @@ LicenseKit helps you protect your software with commercial licenses on all major
 
 {% include kankoda/licenses/pricing-section.html product=product %}
 {% include kankoda/licenses/pricing-links.html  %}
-{% include products/licensekit/feature-table.html tiers=site.data.licensekit-tiers price="yearly" script=true %}
-{% include products/licensekit/feature-table.html tiers=site.data.licensekit-tiers price="monthly" script=false %}
+{% include products/licensekit/feature-table.html tiers=product.tiers price="yearly" script=true %}
+{% include products/licensekit/feature-table.html tiers=product.tiers price="monthly" script=false %}
 
 {% include products/product-footer.md %}

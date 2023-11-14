@@ -28,7 +28,9 @@ description: Kankoda builds apps and products for iOS, macOS, tvOS and watchOS.
     <div>
       <a href="/products">View all</a>
     </div>
-    {% assign products = site.data.products | slice: 0, 4 %}
+    {% assign sdks = site.data.products | where:"info.sdk",1 %}
+    {% assign apps = site.data.products | where:"info.app",1 %}
+    {% assign products = sdks | concat: apps | uniq | slice: 0, 4 %}
     {% include kankoda/grids/grid.html items=products link="/products" type="icons" %}
   </section>
   

@@ -2,12 +2,5 @@
 layout: default
 ---
 
-{% include kankoda/data/product.html name="LicenseKit" %}
-
-<article class="paper">
-  {{ content }}
-  <hr />
-  {% include kankoda/licenses/feature-section.html title="Read More" features=site.data.licensekit-features %}
-  <hr />
-  {% include kankoda/licenses/pricing-section.html product=product button=1 %}
-</article>
+{% assign product=site.data.products.licensekit %}
+{% include products/product-feature.md product=product %}

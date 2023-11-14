@@ -2,12 +2,5 @@
 layout: default
 ---
 
-{% include kankoda/data/product.html name="EmojiKit" %}
-
-<article class="paper">
-  {{ content }}
-  <hr />
-  {% include kankoda/licenses/feature-section.html title="Read More" features=site.data.emojikit-features %}
-  <hr />
-  {% include kankoda/licenses/pricing-section.html product=product button=1 %}
-</article>
+{% assign product=site.data.products.emojikit %}
+{% include products/product-feature.md product=product %}
