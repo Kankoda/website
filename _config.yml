@@ -116,7 +116,7 @@ defaults:
       type: "pages"
     values:
       hero: ""
-      image: /assets/headers/kankoda.png
+      image: /assets/headers/kankoda.jpg
   -
     scope:
       type: "posts"
