@@ -46,7 +46,7 @@
       }
       
       .line-footer {
-        height: 70px;
+        height: 100px;
         background: $content-background;
       }
     }
@@ -54,7 +54,7 @@
 }
 
 .hero + main {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 @media (max-width: 500px) {
@@ -62,10 +62,13 @@
     // Hide open-source on smaller screens
   .hero {
     padding-top: 25px;
-    margin-bottom: 25px;
 
     .line {
       height: 50px !important;
     }
+  }
+
+  .hero + main {
+    padding-top: 25px;
   }
 }
