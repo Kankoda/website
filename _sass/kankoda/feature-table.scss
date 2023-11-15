@@ -17,10 +17,6 @@
 
   padding-bottom: 30px;
 
-  .cta {
-    padding: 10px 0px;
-  }
-
   .grid {
     background-color: $feature-table-background;
 
@@ -69,6 +65,10 @@
       text-align: center;
       background-color: #fff;
       border: solid 2px $feature-table-border-color;
+
+      .cta {
+        padding: 10px 0px;
+      }
     }
 
     .tier.silver {

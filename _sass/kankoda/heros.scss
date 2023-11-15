@@ -1,9 +1,5 @@
 .hero {
   padding-top: 50px;
-  margin-bottom: 50px;
-
-  background: $site-background;
-  background-size: $texture-size;
   text-align: center;
   
   h1 {
@@ -38,7 +34,6 @@
     position: relative;
     height: 0px;
     z-index: 0;
-    background: red;
 
     .line-content {
       position: absolute;
@@ -48,7 +43,6 @@
       .line {
         height: 100px;
         background: linear-gradient(to top left, $content-background 0%, $content-background 50%, transparent 50%, transparent 100%) !important;
-        background-size: $texture-size;
       }
       
       .line-footer {
@@ -57,6 +51,10 @@
       }
     }
   }
+}
+
+.hero + main {
+  padding-top: 50px;
 }
 
 @media (max-width: 500px) {
