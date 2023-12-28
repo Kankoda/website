@@ -40,4 +40,4 @@ LicenseKit helps you protect your software with commercial licenses on all major
 {% include products/licensekit/feature-table.html tiers=product.tiers price="yearly" script=true %}
 {% include products/licensekit/feature-table.html tiers=product.tiers price="monthly" script=false %}
 
-{% include products/product-footer.md %}
+{% include products/sdk-footer.md %}

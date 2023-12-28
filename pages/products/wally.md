@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Wally
-permalink: /products/wally
+permalink: /wally
 
 redirect_to: https://wally.app
+redirect_from: /products/wally
 ---

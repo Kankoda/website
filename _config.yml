@@ -61,9 +61,10 @@ footer_sitemap:
 
 footer_extra_title: Products
 footer_extra:
-  - pages/products/emojikit.md
+  - pages/products/emojikit/emojikit.md
+  - pages/products/emojipicker/emojipicker.md
   - pages/products/keyboardkit.md
-  - pages/products/licensekit.md
+  - pages/products/licensekit/licensekit.md
   - pages/products/wally.md
 
 collections_dir: collections

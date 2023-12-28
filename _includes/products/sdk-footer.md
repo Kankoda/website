@@ -1,6 +1,6 @@
 {% assign email = site.email_url | append: "?subject=" | append: product.info.name %}
 
-Licenses can be purchased from the [Gumroad]({{ product.info.gumroad }}) e-shop. [Reach out]({{ email }}) if you want to include any add-ons, or if you have other support needs or preferred methods of payment or invoicing.
+Licenses can be purchased from the [Gumroad]({{ product.info.gumroad }}) e-shop. [Reach out]({{ email }}) if you want to include any add-ons, or if you have other support needs or preferred methods of payment.
 
 
 ### Enterprise Licenses
@@ -8,9 +8,9 @@ Licenses can be purchased from the [Gumroad]({{ product.info.gumroad }}) e-shop.
 The standard tiers are aimed at indie developers, startups and small businesses. Companies and organizations with more than $1M USD in annual proceeds can [reach out for a custom plan]({{ email }}).
 
 
-### License Terms
+### Terms & Conditions
 
-By purchasing a license, you acknowledge and approve the [ terms & conditions](terms).
+By purchasing a license, you acknowledge and approve the [terms & conditions](terms).
 
 
 <div class="paper">
