@@ -1,8 +1,10 @@
 ---
 title: EmojiKit - Terms & Conditions
 layout: page
-permalink: /emojikit/terms-and-conditions
-redirect_from: /emojikit/terms
+permalink: /sdks/emojikit/terms-and-conditions
+redirect_from: 
+  - /emojikit/terms
+  - /sdks/emojikit/terms
 
 image:  /assets/headers/emojikit.png
 hero: /assets/icons/emojikit.png

@@ -83,4 +83,4 @@ The courts of Sweden shall have exclusive jurisdiction to settle any dispute or 
 
 ## Copyright
 
-Copyright © 2021-2023 Kankoda Sweden AB
+Copyright © {{site.copyright_year}} {{site.copyright_owner}}

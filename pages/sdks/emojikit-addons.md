@@ -1,7 +1,9 @@
 ---
 title: EmojiKit - Add-ons
 layout: page
-permalink: /emojikit/addons
+permalink: /sdks/emojikit/addons
+
+redirect_from: /emojikit/addons
 
 image:  /assets/headers/emojikit.png
 hero: /assets/icons/emojikit.png

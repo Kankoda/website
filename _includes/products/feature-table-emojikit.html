@@ -1,0 +1,29 @@
+{% if include.script %}
+  {% include kankoda/gumroad/script.html %}
+{% endif %}
+
+<section class="feature-table three-tier {{include.price}}">
+  {% include kankoda/licenses/tiers-header.html tiers=include.tiers price=include.price %}
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Emojis" columns="✔,✔,✔" title="EmojiKit lets you work with emojis in structured ways." url="/sdks/emojikit/features/emoji" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Categories" columns="✔,✔,✔" title="EmojiKit defines all emoji categories and their emojis." url="/sdks/emojikit/features/categories" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Skin Tones" columns="✔,✔,✔" title="EmojiKit provides you with skin tone information for all emojis." url="/sdks/emojikit/features/skintones" %}  
+  {% include kankoda/licenses/table-row.html row=04 feature="Localization" columns="✔,✔,✔" title="EmojiKit supports localization for all emojis and locales." url="/sdks/emojikit/features/localization" %}
+  {% include kankoda/licenses/table-row.html row=05 feature="Search" columns="✔,✔,✔" title="EmojiKit supports localization for all emojis and locales." url="/sdks/emojikit/features/emoji" %}
+  {% include kankoda/licenses/table-row.html row=06 feature="Version Information" columns="✔,✔,✔" title="EmojiKit defines emoji versions, OS availability and their emojis." url="/sdks/emojikit/features/version-info" %}
+  
+  <hr />
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Images" columns="-,✔,✔" title="EmojiKit has image assets for categories." url="/sdks/emojikit/features/ui-components" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Grid" columns="-,✔,✔" title="EmojiKit has a versatile emoji grid." url="/sdks/emojikit/features/ui-components" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Picker" columns="-,✔,✔" title="EmojiKit has a versatile emoji picker." url="/sdks/emojikit/features/ui-components" %}
+  
+  <hr />
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Onboarding call" columns="-,-,Optional" title="The optional onboarding call lets us understand your needs to help you get started." url="/sdks/emojikit/addons" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Monthly call" columns="-,-,Optional" title="The optional monthly call lets us keep in sync and move your products forward." url="/sdks/emojikit/addons" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Additional bundles" columns="-,-,Add-on" title="Additional bundle IDs can be added to an existing license at a discounted price." url="/sdks/emojikit/addons" %}
+  {% include kankoda/licenses/table-row.html row=04 feature="Support" columns="-,GitHub,E-mail" title="The higher tiers include priority support and can pay extra for dedicated support." url="/sdks/emojikit/addons" %}
+
+  {% include kankoda/licenses/tiers-footer.html tiers=include.tiers %}    
+</section>

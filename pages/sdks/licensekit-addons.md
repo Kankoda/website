@@ -1,7 +1,10 @@
 ---
 title: LicenseKit - Add-ons
 layout: page
-permalink: /licensekit/addons
+permalink: /sdks/licensekit/addons
+
+redirect_from: /licensekit/addons
+
 
 image:  /assets/headers/licensekit.png
 hero: /assets/icons/licensekit.png

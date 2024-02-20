@@ -2,6 +2,6 @@ name: LicenseKit
 sdk: 1
 icon: licensekit
 image: /assets/headers/licensekit.jpg
-url:  /licensekit
+url:  /sdks/licensekit
 github: https://github.com/LicenseKit/LicenseKit
 gumroad: https://kankoda.gumroad.com/l/licensekit

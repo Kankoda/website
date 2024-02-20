@@ -3,7 +3,7 @@
 {% endif %}
 
 <section class="feature-table three-tier {{include.price}}">
-  {% include kankoda/licenses/table-tiers.html tiers=include.tiers price=include.price %}    
+  {% include kankoda/licenses/tiers-header.html tiers=include.tiers price=include.price %}    
 
   {% include kankoda/licenses/table-row.html row=01 feature="Max licenses" columns="10,100,1 000" title="LicenseKit lets you define licenses in text files." url="licenses/file" %}
   
@@ -26,16 +26,5 @@
   {% include kankoda/licenses/table-row.html row=03 feature="Additional bundles" columns="-,-,Add-on" title="Additional bundle IDs can be added to an existing license at a discounted price." url="/licensekit/addons" %}
   {% include kankoda/licenses/table-row.html row=04 feature="Support" columns="-,GitHub,E-mail" title="The higher tiers include priority support and can pay extra for dedicated support." url="/licensekit/addons" %}
   
-  <hr />
-
-  <div class="grid footer">
-    <div class="feature"></div>
-    {% for tier in include.tiers %}
-    <div>
-      <a href="{{tier.url}}" class="cta scale">
-        Sign Up
-      </a>
-    </div>
-    {% endfor %}
-  </div>
+  {% include kankoda/licenses/tiers-footer.html tiers=include.tiers %}    
 </section>

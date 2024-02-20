@@ -2,10 +2,12 @@
 id: emojipicker
 title: Emoji Picker
 layout: page
-permalink: /emojipicker
+permalink: /apps/emojipicker
 
-image:  /assets/headers/emojipicker.png
-hero: /assets/icons/emojipicker-trans.png
+redirect_from: /emojipicker
+
+image: /assets/headers/emojipicker.png
+hero:  /assets/icons/emojipicker-trans.png
 
 description: Emoji Picker lets you pick emojis on macOS and iOS.
 ---
@@ -16,6 +18,6 @@ description: Emoji Picker lets you pick emojis on macOS and iOS.
 
 More info will come once the app is live.
 
-{% include kankoda/buttons/cta.html url=product.info.url_appstore title="Download from the App Store" %}
+{% include kankoda/buttons/cta.html url=product.info.url_appstore title="Get it from the App Store" %}
 
 {% include kankoda/paper/hr.md %}

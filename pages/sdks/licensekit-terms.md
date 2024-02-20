@@ -1,8 +1,10 @@
 ---
 title: LicenseKit - Terms & Conditions
 layout: page
-permalink: /licensekit/terms-and-conditions
-redirect_from: /licensekit/terms
+permalink: /sdkslicensekit/terms-and-conditions
+redirect_from: 
+  - licensekit/terms
+  - /sdkslicensekit/terms
 
 image:  /assets/headers/licensekit.png
 hero: /assets/icons/licensekit.png

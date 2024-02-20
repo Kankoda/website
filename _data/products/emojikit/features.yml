@@ -1,29 +1,29 @@
 - title: Emojis
-  url: /emojikit/features/emoji
+  url:  /sdks/emojikit/features/emoji
   emoji: 😀
   text: EmojiKit lets you work with emojis in a structured way.
 
 - title: Categories
-  url:  /emojikit/features/categories
+  url:  /sdks/emojikit/features/categories
   emoji: 🐻
   text: EmojiKit defines all emoji categories and their emojis.
 
-- title: Localization
-  url:  /emojikit/features/localization
-  emoji: 🇸🇪
-  text: EmojiKit supports localization for all emojis and locales.
-
 - title: Skin Tones
-  url:  /emojikit/features/skintones
+  url:  /sdks/emojikit/features/skintones
   emoji: 👍🏾
   text: EmojiKit provides you with skin tone information for all emojis.
 
+- title: Localization
+  url:  /sdks/emojikit/features/localization
+  emoji: 🇸🇪
+  text: EmojiKit supports localization for all emojis and locales.
+
 - title: Version Information
-  url:  /emojikit/features/version-info
+  url:  /sdks/emojikit/features/version-info
   emoji: 📦
   text: EmojiKit defines emoji versions, OS availability and their emojis.
 
 - title: UI Components
-  url:  /emojikit/features/ui-components
+  url:  /sdks/emojikit/features/ui-components
   emoji: 📱
   text: EmojiKit provides you with UI components like grids & pickers.
