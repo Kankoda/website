@@ -1,2 +1,11 @@
+{% assign products = include.products | sort: "info.name" %}
+
 <h2>{{ include.title | default: "Products" }}</h2>
-{% include kankoda/grids/grid.html items=include.products type="icons" %}
+
+{% if include.all-url %}
+<div>
+    <a href="{{include.all-url}}">View all</a>
+</div>
+{% endif %}
+
+{% include kankoda/grids/grid.html items=products type="icons" %}

@@ -6,5 +6,5 @@ By purchasing an SDK license, you acknowledge and approve the [license terms & c
 
 {% include kankoda/paper/hr.md %}
 
-{% assign products = site.data.products | where:"info.sdk",1 %}
-{% include products/products-section.md products=products product=product title="Kankoda SDKs" %}
+{% assign products = site.data.products | where: "info.sdk",1 %}
+{% include products/products-section.md products=products product=product title="Our SDKs" %}

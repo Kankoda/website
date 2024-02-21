@@ -1,11 +1,11 @@
 ---
-title: EmojiKit - UI Components
+title: UI Components
 hero-emoji: 📱
-description: EmojiKit provides you with UI components like grids & pickers.
+description: EmojiKit provides you with UI components like grids & pickers
 ---
 
 
-## Emoji UI Components
+## UI Components
 
 [EmojiKit](/emojikit) has UI components that you can use in your SwiftUI apps, such as grids and pickers.
 

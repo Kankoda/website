@@ -3,13 +3,15 @@
   {% include kankoda/head/head.html %}
 
   {%- assign hero = page.hero -%}
-  {%- assign hero-title = page.hero-title | default: page.title -%}
+
+  {%- assign title = page.hero-title | default: page.title -%}
+  {%- assign hero-solid = page.hero-solid -%}
   {%- assign hero-emoji = page.hero-emoji -%}
   {%- assign hero-description = page.hero-description | default: page.description -%}
 
   <body class="{{page.id}} {{body_class}}">  
     {% include kankoda/global/site-header.html %}
-    {% include kankoda/heros/hero.html hero=hero hero-emoji=hero-emoji hero-title=hero-title hero-description=hero-description %}
+    {% include kankoda/heros/hero.html hero=hero title=title solid=hero-solid emoji=hero-emoji description=hero-description %}
     {{ content }}
     {% include kankoda/global/site-footer.html %}
   </body>

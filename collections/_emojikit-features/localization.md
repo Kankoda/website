@@ -1,11 +1,11 @@
 ---
-title: EmojiKit - Localization
-hero-emoji: 🇸🇪
-description: EmojiKit supports localization for all emojis and locales.
+title: Localization
+hero-emoji: 🇺🇸 🇸🇪 🇪🇸
+description: EmojiKit supports localizing all emojis and categories
 ---
 
 
-## Emoji Localization
+## Localization
 
 [EmojiKit](/emojikit) supports emoji localization, for instance:
 

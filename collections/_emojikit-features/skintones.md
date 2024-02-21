@@ -1,11 +1,11 @@
 ---
-title: EmojiKit - Skin Tones
-hero-emoji: 👍🏾
-description: EmojiKit provides you with skin tone information for all emojis.
+title: Skin Tones
+hero-emoji: 👍🏻👍🏾👍🏿
+description: EmojiKit defines emoji skin tones
 ---
 
 
-## Emoji Skin Tones
+## Skin Tone Support
 
 [EmojiKit](/emojikit) has extensive ``Emoji`` skin tone information:
 
@@ -20,6 +20,6 @@ Emoji("👍").skinToneVariantActions  // The above variants as keyboard actions
 Skin tone variants will automatically be shown in a secondary callout when long pressing emojis in the library's `Emoji.Picker` component. 
 
 
-## Limited support for multiple skin tone components
+## Limited support
 
 Note that multiple skin tone components are currently not supported, such as two persons kissing.

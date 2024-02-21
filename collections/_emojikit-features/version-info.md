@@ -1,7 +1,7 @@
 ---
-title: EmojiKit - Version Information
+title: Emoji Versions
 hero-emoji: 📦
-description: EmojiKit defines emoji versions, OS availability and their emojis.
+description: EmojiKit defines emoji versions and their emojis
 ---
 
 
@@ -57,7 +57,7 @@ version.watchOS  // 9.4
 Emoji versions also define all older and later emoji versions:
 
 ```swift
-let version = EmojiVersion.v14
+let version = Emoji.Version.v14
 version.laterVersions     // [.v15]
 version.olderVersions     // [.v13_1, .v13, .v12_1, ...]
 ```
@@ -70,7 +70,7 @@ This information can be used in many ways, for instance to determine OS and plat
 An emoji version defines all emojis that were introduced in that particular versions:
 
 ```swift
-let version = EmojiVersion.v14
+let version = Emoji.Version.v14
 version.emojis            // 🫠🫢🫣🫡🫥🫤🥹...
 version.laterVersions     // [.v15]
 version.olderVersions     // [.v13_1, .v13, .v12_1, ...]

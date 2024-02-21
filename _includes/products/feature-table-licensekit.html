@@ -5,26 +5,26 @@
 <section class="feature-table three-tier {{include.price}}">
   {% include kankoda/licenses/tiers-header.html tiers=include.tiers price=include.price %}    
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Max licenses" columns="10,100,1 000" title="LicenseKit lets you define licenses in text files." url="licenses/file" %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Max licenses" columns="10,100,1 000" title="LicenseKit lets you define licenses in text files." %}
   
   <hr />
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Binary Licenses" columns="✔,✔,✔" title="LicenseKit lets you define licenses with code." url="/licenses/binary" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="File-based Licenses" columns="✔,✔,✔" title="LicenseKit lets you define licenses in text files." url="/licenses/file" %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Binary Licenses" columns="✔,✔,✔" title="LicenseKit lets you define licenses with code." url="features/binary-licenses" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="File-based Licenses" columns="✔,✔,✔" title="LicenseKit lets you define licenses in text files." url="features/file-licenses" %}
   
   <hr />
 
-  {% include kankoda/licenses/table-row.html row=05 feature="API/Cloud-based Licenses" columns="-,-,✔" title="LicenseKit lets you validate licenses over the cloud." url="/licenses/api" %}
-  {% include kankoda/licenses/table-row.html row=06 feature="Gumroad Integration" columns="-,-,✔" title="LicenseKit lets you integrate with Gumroad." url="/licenses/proxying" %}
-  {% include kankoda/licenses/table-row.html row=07 feature="Service Proxying" columns="-,-,✔" title="LicenseKit lets you combine multiple license services into a single service." url="/licenses/proxying" %}
-  {% include kankoda/licenses/table-row.html row=08 feature="License Caching" columns="-,-,✔" title="LicenseKit lets you cache the last successful license validation." url="/licenses/caching" %}
+  {% include kankoda/licenses/table-row.html row=05 feature="API/Cloud-based Licenses" columns="-,-,✔" title="LicenseKit lets you validate licenses over the cloud." url="features/api-licenses" %}
+  {% include kankoda/licenses/table-row.html row=06 feature="Gumroad Integration" columns="-,-,✔" title="LicenseKit lets you integrate with Gumroad." url="features/service-composition" %}
+  {% include kankoda/licenses/table-row.html row=07 feature="Service Proxying" columns="-,-,✔" title="LicenseKit lets you combine multiple license services into a single service." url="features/service-composition" %}
+  {% include kankoda/licenses/table-row.html row=08 feature="License Caching" columns="-,-,✔" title="LicenseKit lets you cache the last successful license validation." url="features/service-composition" %}
   
   <hr />
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Onboarding call" columns="-,-,Optional" title="The optional onboarding call lets us understand your needs to help you get started." url="/licensekit/addons" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="Monthly call" columns="-,-,Optional" title="The optional monthly call lets us keep in sync and move your products forward." url="/licensekit/addons" %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Additional bundles" columns="-,-,Add-on" title="Additional bundle IDs can be added to an existing license at a discounted price." url="/licensekit/addons" %}
-  {% include kankoda/licenses/table-row.html row=04 feature="Support" columns="-,GitHub,E-mail" title="The higher tiers include priority support and can pay extra for dedicated support." url="/licensekit/addons" %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Onboarding call" columns="-,-,Optional" title="The optional onboarding call lets us understand your needs to help you get started." url="addons" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Monthly call" columns="-,-,Optional" title="The optional monthly call lets us keep in sync and move your products forward." url="addons" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Additional bundles" columns="-,-,Add-on" title="Additional bundle IDs can be added to an existing license at a discounted price." url="addons" %}
+  {% include kankoda/licenses/table-row.html row=04 feature="Support" columns="-,GitHub,E-mail" title="The higher tiers include priority support and can pay extra for dedicated support." url="addons" %}
   
   {% include kankoda/licenses/tiers-footer.html tiers=include.tiers %}    
 </section>

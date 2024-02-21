@@ -1,19 +1,18 @@
 ---
 title: File-based Licenses
-hero: /assets/heros/licensekit/file.png
-description: LicenseKit lets you define licenses in plain text files.
+hero-emoji: 📄
+description: LicenseKit can read licenses from plain text files
 ---
 
-[LicenseKit's](/licensekit) file-based licenses is a great alternative when you need to ship your licenses with your product. The license file is bundled with the product and can be validated even when offline.
+## File-based licenses
+
+[LicenseKit's](/licensekit) can read licenses from plain text files, that can be read either from the product bundle or from any URL that your software has access to.
+
 
 ## How does it work?
 
 File-based licenses let you bundle license files together with your product. You can also refer to files at any URL, for instance if you send the license file to your customers.
 
-If your license files are built into your product binary, you must release new product versions to add, remove and edit licenses.
-
-## License expiration
+If a license file is built into your product binary, you must release new versions of your software to add, remove and edit licenses.
 
 You can choose if a license should expire on its expiration date, or if you want your customer to be able to keep using it in all versions where the license was active.
-
-The model you choose really depends on your business model. Companies like Sketch let you use expired licenses, with hope that new features will make you renew your license.

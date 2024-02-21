@@ -8,15 +8,15 @@
   emoji: 🐻
   text: EmojiKit defines all emoji categories and their emojis.
 
-- title: Skin Tones
-  url:  /sdks/emojikit/features/skintones
-  emoji: 👍🏾
-  text: EmojiKit provides you with skin tone information for all emojis.
-
 - title: Localization
   url:  /sdks/emojikit/features/localization
   emoji: 🇸🇪
   text: EmojiKit supports localization for all emojis and locales.
+
+- title: Skin Tones
+  url:  /sdks/emojikit/features/skintones
+  emoji: 👍🏾
+  text: EmojiKit provides you with skin tone information for all emojis.
 
 - title: Version Information
   url:  /sdks/emojikit/features/version-info

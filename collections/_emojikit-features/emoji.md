@@ -1,13 +1,13 @@
 ---
-title: EmojiKit - Emojis
+title: Emojis
 hero-emoji: 😀
-description: EmojiKit lets you work with emojis in a structured way.
+description: EmojiKit lets you work with emojis in a more structured way
 ---
 
 
-## Emoji Model
+## Emoji
 
-[EmojiKit](/emojikit) has an ``Emoji`` struct that lets you work with emojis in structured ways:
+[EmojiKit](/emojikit) has an ``Emoji`` struct that lets you work with emojis in a more structured way:
 
 ```swift
 let emoji = Emoji("😀")

@@ -4,14 +4,14 @@ title: Home
 layout: default
 
 hero: /assets/devices.png
-hero-title: Welcome to Kankoda!
+hero-title: Welcome to Kankoda
 
-description: Kankoda builds apps and products for iOS, macOS, tvOS and watchOS.
+description: We build SDKs & apps for the Apple tech stack
 ---
 
 <div class="home-content paper">
   <p>
-    Kankoda is <a href="/company">an app and software agency</a> in beautiful Stockholm, Sweden. We do <a href="/projects">freelance work</a> and build <a href="/products">apps and products</a> for iOS, iPadOS, macOS, tvOS and watchOS.
+    Kankoda is <a href="/company">a software company</a> in Stockholm, Sweden. We build <a href="/products">SDKs & apps</a> for the Apple eco-system and help companies on a <a href="/projects">freelance basis</a>.
   </p>
 
   <p>
@@ -23,16 +23,11 @@ description: Kankoda builds apps and products for iOS, macOS, tvOS and watchOS.
     {% include kankoda/grids/grid-features.html features=site.data.home-features %}
   </section>
 
-  <section class="products">
-    <h2>Products</h2>
-    <div>
-      <a href="/products">View all</a>
-    </div>
-    {% assign sdks = site.data.products | where:"info.sdk",1 %}
-    {% assign apps = site.data.products | where:"info.app",1 %}
-    {% assign products = sdks | concat: apps | uniq | slice: 0, 4 %}
-    {% include kankoda/grids/grid.html items=products link="/products" type="icons" %}
-  </section>
+  {% assign sdks = site.data.products | where:"info.sdk",1 %}
+  {% include products/products-section.md products=sdks title="SDKs" all-url="/sdks" %}
+
+  {% assign apps = site.data.products | where:"info.app",1 %}
+  {% include products/products-section.md products=apps title="Apps" all-url="/apps" %}
   
   <section>
     <h2>Latest news</h2>

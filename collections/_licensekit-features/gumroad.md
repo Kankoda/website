@@ -1,10 +1,13 @@
 ---
 title: Gumroad Licenses
 hero: /assets/heros/licensekit/gumroad.png
-description: LicenseKit lets you validate Gumroad licenses.
+description: LicenseKit integrates directly with Gumroad's license API
 
 gumroad: https://gumroad.com
 ---
+
+
+## Gumroad licenses
 
 [LicenseKit's](/licensekit) Gumroad license service makes it super simple to validate licenses that you've sold at Gumroad, and maps the API response to a valid LicenseKit license.
 
@@ -19,8 +22,3 @@ The response mapper provides you with a response object and a suggested LicenseK
 ## Offline mode
 
 If your software needs to work offline, LicenseKit can cache the last fetched license and ignore any non-license errors that occur during the license validation.
-
-
-## License expiration
-
-You can easily map expiration information from the Gumroad licemse, or as easily customize the expiration if you don't want to use the information provided by the service provider.

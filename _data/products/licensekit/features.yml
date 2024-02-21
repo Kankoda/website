@@ -1,29 +1,29 @@
 - title: License Validation
   url:  /sdks/licensekit/features/license
-  image: /assets/heros/licensekit/license.png
-  text: LicenseKit can validate licenses in flexible and powerful ways.
+  emoji: ✅
+  text: LicenseKit can validate licenses in many different ways.
 
 - title: Binary Licenses
   url:  /sdks/licensekit/features/binary-licenses
-  image: /assets/heros/licensekit/binary.png
-  text: LicenseKit lets you define licenses with source code.
+  emoji: 🧑🏽‍💻
+  text: LicenseKit can compile licenses into the product binary.
 
 - title: File-Based Licenses
   url:  /sdks/licensekit/features/file-licenses
-  image: /assets/heros/licensekit/file.png
-  text: LicenseKit lets you define licenses with plain text files.
+  emoji: 📄
+  text: LicenseKit can read licenses from plain text files.
 
 - title: API/Cloud-Based Licenses
   url:  /sdks/licensekit/features/api-licenses
-  image: /assets/heros/licensekit/api.png
-  text: LicenseKit can validate licenses with web requests.
+  emoji: 🌩️
+  text: LicenseKit can validate licenses over the Internet, using any API.
 
-- title: Gumroad
+- title: Integrations
   url:  /sdks/licensekit/features/gumroad
-  image: /assets/heros/licensekit/gumroad.png
-  text: LicenseKit can integrate directly with Gumroad.
+  emoji: 🏬
+  text: LicenseKit integrates directly with Gumroad's license API.
 
 - title: Service Composition
   url:  /sdks/licensekit/features/service-composition
-  image: /assets/heros/licensekit/services.png
+  emoji: ⚙️
   text: LicenseKit can compose services to create powerful combos.

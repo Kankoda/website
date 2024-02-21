@@ -1,8 +1,11 @@
 ---
 title: Service Composition
 hero: /assets/heros/licensekit/services.png
-description: LicenseKit can compose services to create powerful combos.
+description: LicenseKit can compose services to create powerful combinations
 ---
+
+
+## Service Composition
 
 [LicenseKit](/licensekit) lets you compose services toget maximum flexibility with minimum effort. You can for instance make a service cached, or chain multiple services together with a service proxy.
 
@@ -21,14 +24,14 @@ let engine = try await LicenseEngine(licenseKey: "your-key") {
 }
 ```
 
-License can be used to make API-based license validation more robust, and not fail when the client connectivity is lost. This is however optional, to let you decide if you want to support offline validation.
+License can be used to make API-based license validation more robust, and not fail when the client connectivity is lost. This is optional, to let you decide if you want to support offline validation.
 
 
 ## Service Proxying
 
 Service proxying lets you chain many service together, to create flexible license validations that use multiple data sources, instead of just a single one.
 
-All you have to do to create a proxy is to use the `.proxy(...)` service type and provide it with a list of services, like this:
+All you have to do is to use the `.proxy(...)` service type and provide it with a list of services:
 
 ```swift
 let engine = try await LicenseEngine(licenseKey: "your-key") {

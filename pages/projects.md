@@ -38,6 +38,6 @@ The [SPM]({{site.spm}})-based architecture that was set up alongside oKeyboard m
 
 Kankoda has helped companies like [Bambuser]({{site.bambuser}}) and [Qapital]({{site.qapital}}) with lead and engineer roles, in both shorter and longer projects.
 
-![Company Icons]({{site.assets}}headers/projects.png){:class="plain" width="500"}
+![Company Icons]({{site.assets}}heros/projects.png){:class="plain" width="450"}
 
 Don't hesitate to [reach out](mailto:{{site.email}}) if want to build something, or need help with your apps or products.

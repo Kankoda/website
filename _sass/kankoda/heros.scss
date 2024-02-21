@@ -3,7 +3,12 @@
   text-align: center;
   
   h1 {
+    font-size: 2.5em !important;
     margin-top: 0px !important;
+  }
+
+  img {
+    width: 450px;
   }
   
   .image-wrapper {
@@ -18,9 +23,9 @@
     font-size: 1.1em;
     font-weight: 600 !important;
   }
-
+  
   .emoji {
-    font-size: 10em;
+    font-size: 7em;
     border-radius: 15px;
     line-height: 1.4em;
   }
@@ -53,8 +58,28 @@
   }
 }
 
+.hero.solid {
+  padding-bottom: 25px;
+  background-color: $site-background;
+
+  img {
+    width: 150px;
+  }
+}
+
+.hero.solid + .paper.separator {
+  background-color: $content-background;
+  hr {
+    margin: 0px;
+  }
+}
+
 .hero + main {
-  padding-top: 25px;
+  padding-top: 50px;
+
+  .button-container.navigator {
+    margin-top: 0px !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -63,8 +88,19 @@
   .hero {
     padding-top: 25px;
 
+    .emoji {
+      font-size: 5em !important;
+    }
+
     .line {
       height: 50px !important;
+    }
+  }
+
+  .paper.separator {
+    background-color: $content-background;
+    hr {
+      margin-bottom: 0px;
     }
   }
 

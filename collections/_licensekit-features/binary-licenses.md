@@ -1,19 +1,18 @@
 ---
 title: Binary Licenses
-hero: /assets/heros/licensekit/binary.png
-description: LicenseKit lets you define licenses with source code.
+hero-emoji: 🧑🏽‍💻
+description: LicenseKit can compile licenses into the product binary
 ---
 
-[LicenseKit's](/licensekit) binary licenses is a great alternative when you need to ship your licenses with your product. Licenses are compiled into binary code and can be validated even when offline.
+## Binary licenses
+
+[LicenseKit's](/licensekit) can compile licenses into the product binary. This is a great alternative when you need to ship your licenses together with your product, e.g. to be validated even when offline.
+
 
 ## How does it work?
 
-Binary licenses may sound complicated, but is actually very easy. You just define your licenses with source code and pass it into the license engine when you set up LicenseKit.
+This may sound complicated, but is actually very easy. You just define your licenses with code that is compiled into the binary as part of building your product.
 
-Since binary licenses are built into the product binary, you must release new product versions to add, remove and edit licenses.
-
-## License expiration
+Since binary licenses are compiled into the binary, you must release new versions of your software to add, remove and edit licenses.
 
 You can choose if a license should expire on its expiration date, or if you want your customer to be able to keep using it in all versions where the license was active.
-
-The model you choose really depends on your business model. Companies like Sketch let you use expired licenses, with hope that new features will make you renew your license.

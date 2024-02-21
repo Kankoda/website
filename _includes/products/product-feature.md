@@ -1,6 +1,7 @@
 {% assign product=include.product %}
 
 <article class="paper">
+
   {{ content }}
 
   <hr />
@@ -14,5 +15,5 @@
   <hr />
 
   {% assign products = site.data.products | where:"info.sdk",1 %}
-  {% include products/products-section.md products=products product=product %}
+  {% include products/products-section.md products=products title="Our SDKs" %}
 </article>
