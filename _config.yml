@@ -10,7 +10,7 @@ description: >-
 url: http://kankoda.com
 rss_url: https://kankoda.com/feed.xml
 
-copyright_year: 2021-2023
+copyright_year: 2021-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
@@ -90,6 +90,9 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  
+include: [".well-known"]
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
@@ -127,9 +130,6 @@ defaults:
     values:
       author: "danielsaidi"
       layout: "post"
-
-include:
-  - .well-known/
 
 exclude:
   - Gemfile
