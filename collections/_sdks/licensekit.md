@@ -3,6 +3,8 @@ title: LicenseKit
 
 image: /assets/sdks/licensekit/header.jpg
 
+redirect_from: /licensekit
+
 description: LicenseKit lets you protect your apps and SDKs with commercial licenses on all major Apple platforms.
 
 about: LicenseKit can protect your apps and SDKs with commercial licenses, and makes it easy to verify that people have the right to use your software.

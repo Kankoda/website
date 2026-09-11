@@ -2,7 +2,8 @@
 title: MediaKit
 
 image: /assets/sdks/mediakit/header.jpg
-screenshot: /assets/sdks/mediakit/screenshot-
+
+redirect_from: /mediakit
 
 description: MediaKit lets you create modern streaming media apps with SwiftUI on all major Apple platforms.
 

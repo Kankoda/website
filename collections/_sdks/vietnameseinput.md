@@ -2,7 +2,8 @@
 title: Vietnamese Input
 
 image: /assets/sdks/vietnameseinput/header.jpg
-screenshot: /assets/sdks/vietnameseinput/screenshot-
+
+redirect_from: /vietnameseinput
 
 description: Vietnamese Input lets you add support for Vietnamese text input to any SwiftUI app on all major Apple platforms.
 
